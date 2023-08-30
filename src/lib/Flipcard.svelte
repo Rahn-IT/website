@@ -1,12 +1,10 @@
 <script lang="ts">
 	let classes = '';
 	export { classes as class };
-
-	export let cardClass = '';
 </script>
 
 <div class="container {classes}">
-	<div class="card relative h-full w-full {cardClass} ">
+	<div class="card relative h-full w-full">
 		<div class="front absolute h-full w-full">
 			<slot name="front" />
 		</div>

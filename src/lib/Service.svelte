@@ -5,7 +5,7 @@
 	export let image: string;
 </script>
 
-<Flipcard class="h-96 w-96" cardClass="rounded-3xl shadow-xl overflow-hidden">
+<Flipcard class="h-96 w-96">
 	<div
 		slot="front"
 		class="relative flex h-full w-full items-center bg-cover"
