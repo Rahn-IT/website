@@ -1,13 +1,13 @@
 <script>
-	import '../app.postcss';
+	import '../app.css';
 	import LogoFull from '$lib/images/logo-full.svelte';
 </script>
 
 <div class="app">
-	<nav class="navbar shadow">
-		<div class="navbar-start">
-			<a class="h-16 btn btn-ghost" href="/">
-				<LogoFull />
+	<nav class="navbar h-32 shadow">
+		<div class="navbar-start h-full">
+			<a class="h-full btn btn-ghost" href="/">
+				<LogoFull class="h-full" />
 			</a>
 		</div>
 	</nav>
