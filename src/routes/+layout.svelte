@@ -10,7 +10,7 @@
 	<Navbar>
 		<li><a href="/">Home</a></li>
 		<li><a href="/emergency">Notdienst</a></li>
-		<li><a href="/">Leistungen</a></li>
+		<li><a href="/services">Leistungen</a></li>
 		<li><a href="/remote">Fernwartung</a></li>
 		<li><a href="/contact-us">Kontakt</a></li>
 	</Navbar>
@@ -33,7 +33,7 @@
 			<a class="link-hover link" href="/remote">Fernwartung</a>
 			<a class="link-hover link" href="/contact-us">Kontakt</a>
 		</div>
-    <div>
+		<div>
 			<a class="link-hover link" href="/legal">Impressum</a>
 		</div>
 	</Footer>

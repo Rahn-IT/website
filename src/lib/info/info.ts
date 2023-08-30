@@ -16,11 +16,11 @@ export function mail(): string {
 }
 
 export function ust(): string {
-    return atob(ustData);
+	return atob(ustData);
 }
 
 export function iban(): string {
-    return atob(ibanData);
+	return atob(ibanData);
 }
 
 export { name, street, plz, city };
