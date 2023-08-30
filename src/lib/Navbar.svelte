@@ -18,17 +18,17 @@
 		<div class="drawer drawer-end w-auto">
 			<input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
 			<div class="drawer-content">
-			  <!-- Page content here -->
-			  <label for="my-drawer-4" class="drawer-button btn btn-ghost">
-				<MenuIcon class="w-8 h-8" />
-			  </label>
-			</div> 
-			<div class="drawer-side">
-			  <label for="my-drawer-4" class="drawer-overlay"></label>
-			  <ul class="menu menu-lg p-4 w-80 min-h-full bg-base-200 text-base-content">
-				<slot/>
-			  </ul>
+				<!-- Page content here -->
+				<label for="my-drawer-4" class="btn btn-ghost drawer-button">
+					<MenuIcon class="h-8 w-8" />
+				</label>
 			</div>
-		  </div>
+			<div class="drawer-side">
+				<label for="my-drawer-4" class="drawer-overlay"></label>
+				<ul class="menu menu-lg min-h-full w-80 bg-base-200 p-4 text-base-content">
+					<slot />
+				</ul>
+			</div>
+		</div>
 	</div>
 </nav>

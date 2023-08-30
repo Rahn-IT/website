@@ -1,0 +1,80 @@
+<script lang="ts">
+	let classes = '';
+	export { classes as class };
+</script>
+
+<svg class={classes} viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" data-v-ac476809=""
+	><title data-v-ac476809="">no-cookie</title><g id="no-cookie" data-v-ac476809=""
+		><circle
+			cx="31.806"
+			cy="32.872"
+			r="18.194"
+			style="fill:#bf7e68;stroke:#4c241d;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;"
+			data-v-ac476809=""
+		></circle><circle cx="31.806" cy="32.872" r="9.194" style="fill:#6b4f5b;" data-v-ac476809=""
+		></circle><path
+			d="M46.958,34.666A15.154,15.154,0,0,1,44.529,41.3"
+			style="fill:none;stroke:#fc8c29;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;"
+			data-v-ac476809=""
+		></path><path
+			d="M19,33a4,4,0,0,1,8,0v7.5a4.5,4.5,0,0,0,9,0V34.818A3.818,3.818,0,0,1,39.818,31,4.182,4.182,0,0,0,44,26.818a1.711,1.711,0,0,1,1.711-1.711H50.1A19.86,19.86,0,0,0,12.626,38H14A5,5,0,0,0,19,33Z"
+			style="fill:#fff;stroke:#4c241d;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;"
+			data-v-ac476809=""
+		></path><line
+			x1="32"
+			y1="28"
+			x2="34"
+			y2="25"
+			style="fill:none;stroke:#f96e43;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;"
+			data-v-ac476809=""
+		></line><line
+			x1="15"
+			y1="31"
+			x2="17"
+			y2="28"
+			style="fill:none;stroke:#f96e43;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;"
+			data-v-ac476809=""
+		></line><line
+			x1="29"
+			y1="19"
+			x2="31"
+			y2="16"
+			style="fill:none;stroke:#f96e43;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;"
+			data-v-ac476809=""
+		></line><line
+			x1="22.779"
+			y1="20.173"
+			x2="25.221"
+			y2="22.827"
+			style="fill:none;stroke:#77a052;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;"
+			data-v-ac476809=""
+		></line><line
+			x1="30.54"
+			y1="38"
+			x2="32.221"
+			y2="39.827"
+			style="fill:none;stroke:#77a052;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;"
+			data-v-ac476809=""
+		></line><line
+			x1="39.779"
+			y1="19.173"
+			x2="42.221"
+			y2="21.827"
+			style="fill:none;stroke:#77a052;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;"
+			data-v-ac476809=""
+		></line><line
+			x1="10.518"
+			y1="12.518"
+			x2="51.481"
+			y2="53.481"
+			style="fill:none;stroke:#f53e28;stroke-linejoin:round;stroke-width:2px;"
+			data-v-ac476809=""
+		></line><circle
+			cx="32"
+			cy="32"
+			r="29"
+			style="fill:none;stroke:#f53e28;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;"
+			data-v-ac476809=""
+		></circle></g
+	></svg
+>
