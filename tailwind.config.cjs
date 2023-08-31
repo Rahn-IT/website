@@ -7,6 +7,11 @@ const config = {
 		colors: {}
 	},
 
+	daisyui: {
+		themes: ['light', 'night'],
+		darkTheme: 'night'
+	},
+
 	plugins: [require('@tailwindcss/typography'), require('daisyui')]
 };
 
