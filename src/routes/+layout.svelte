@@ -12,7 +12,14 @@
 		<li><a href="/emergency">Notdienst</a></li>
 		<li><a href="/services">Leistungen</a></li>
 		<li><a href="/remote">Fernwartung</a></li>
-		<li><a href="/about-us">Über uns</a></li>
+		<li>
+			<details class="z-20">
+				<summary>Über uns</summary>
+				<ul class="lg:top-10 lg:shadow-2xl lg:drop-shadow">
+					<li><a href="/about-us/people">Personal</a></li>
+				</ul>
+			</details>
+		</li>
 		<li><a href="/contact">Kontakt</a></li>
 	</Navbar>
 	<main class="flex w-full flex-1 justify-center px-8 text-lg">
@@ -33,7 +40,7 @@
 			<a class="link-hover link" href="/emergency">Notfalldienst</a>
 			<a class="link-hover link" href="/services">Leistungen</a>
 			<a class="link-hover link" href="/remote">Fernwartung</a>
-			<a class="link-hover link" href="/about-us">Über uns</a>
+			<a class="link-hover link" href="/about-us/people">Personal</a>
 			<a class="link-hover link" href="/contact">Kontakt</a>
 		</div>
 		<div>
