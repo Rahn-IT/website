@@ -6,6 +6,11 @@
 	import Ust from '$lib/info/Ust.svelte';
 </script>
 
+<svelte:head>
+	<title>Impressum</title>
+	<meta name="description" content="Hier finden Sie die rechtlich nötigen angaben." />
+</svelte:head>
+
 <div class="py-8">
 	<table class="table text-lg">
 		<tbody>

@@ -8,7 +8,7 @@
 
 <svelte:head>
 	<title>Kontakt</title>
-	<meta name="description" content="Kontaktieren Sie uns per E-Mail oder Telefon" />
+	<meta name="description" content="Kontaktieren Sie uns per E-Mail oder Telefon." />
 </svelte:head>
 
 <div class="card card-side mt-10 bg-base-300 shadow-xl">

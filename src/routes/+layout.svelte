@@ -30,6 +30,7 @@
 		<div>
 			<a class="link-hover link" href="/">Home</a>
 			<a class="link-hover link" href="/emergency">Notfalldienst</a>
+			<a class="link-hover link" href="/services">Leistungen</a>
 			<a class="link-hover link" href="/remote">Fernwartung</a>
 			<a class="link-hover link" href="/contact-us">Kontakt</a>
 		</div>
