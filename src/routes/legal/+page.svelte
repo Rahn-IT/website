@@ -38,6 +38,20 @@
 				<td>IBAN</td>
 				<td><Iban /></td>
 			</tr>
+			<tr>
+				<td>Erstellt mit</td>
+				<td>
+					<div>
+						<a class="link-hover link" href="https://kit.svelte.dev" target="_blank">SvelteKit</a>
+					</div>
+					<div>
+						<a class="link-hover link" href="https://tailwindcss.com" target="_blank">Tailwind</a>
+					</div>
+					<div>
+						<a class="link-hover link" href="https://daisyui.com/" target="_blank">daisyUI</a>
+					</div>
+				</td>
+			</tr>
 		</tbody>
 	</table>
 </div>

@@ -1,6 +1,4 @@
 <script lang="ts">
-	import Flipcard from './Flipcard.svelte';
-
 	export let title: string;
 	export let image: string;
 </script>
