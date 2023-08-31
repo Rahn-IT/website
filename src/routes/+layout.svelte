@@ -16,7 +16,8 @@
 			<details class="z-20">
 				<summary>Über uns</summary>
 				<ul class="lg:top-10 lg:shadow-2xl lg:drop-shadow">
-					<li><a href="/about-us/people">Personal</a></li>
+					<li><a href="/about-us">Firma</a></li>
+					<li><a href="/about-us/people">Team</a></li>
 				</ul>
 			</details>
 		</li>
@@ -40,7 +41,8 @@
 			<a class="link-hover link" href="/emergency">Notfalldienst</a>
 			<a class="link-hover link" href="/services">Leistungen</a>
 			<a class="link-hover link" href="/remote">Fernwartung</a>
-			<a class="link-hover link" href="/about-us/people">Personal</a>
+			<a class="link-hover link" href="/about-us">Über Rahn-IT</a>
+			<a class="link-hover link" href="/about-us/people">Über das Team</a>
 			<a class="link-hover link" href="/contact">Kontakt</a>
 		</div>
 		<div>

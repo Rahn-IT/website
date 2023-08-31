@@ -1,5 +1,7 @@
 <script lang="ts">
+	import Company from '$lib/Company.svelte';
 	import NoCookie from '$lib/images/NoCookie.svelte';
+	import { name } from '$lib/info/info';
 
 	const years = new Date().getFullYear() - 2004;
 </script>
@@ -53,6 +55,72 @@
 		<li>Waldkraiburg</li>
 		<li>Wasserburg</li>
 	</ul>
+</div>
+
+<div class="py-4">
+	<h2 class="pt-8 text-3xl">Referenzen</h2>
+	<div class="flex h-40 flex-row flex-nowrap gap-16 overflow-x-scroll">
+		<Company
+			class="bg-neutral p-10"
+			name="Fischer"
+			href="https://spenglerei-fischer.de"
+			image="/images/refs/fischer.png"
+		/>
+		<Company
+			name="Autowelt Ostermaier"
+			href="https://autowelt-ostermaier.de"
+			image="/images/refs/autowelt.jpg"
+		/>
+		<Company
+			name="Erbenermittlung Mayer"
+			href="https://erben-mayer.de/"
+			image="/images/refs/mayer.jpg"
+		/>
+		<Company
+			name="Danzl Gartentechnik"
+			href="https://www.danzl-gartentechnik.de/"
+			image="/images/refs/danzl.jpg"
+		/>
+		<Company
+			name="Langlechner"
+			href="https://langlechner-haustechnik.de/"
+			image="/images/refs/langlechner.png"
+		/>
+		<Company
+			class="bg-neutral p-8"
+			name="Fitworld"
+			href="https://www.fitworldts.de/"
+			image="/images/refs/fitworld.png"
+		/>
+		<Company
+			name="Rechtsanwälte Heiß"
+			href="https://www.rechtsanwaelte-heiss.de/"
+			image="/images/refs/heiss.png"
+		/>
+		<Company
+			class="p-8"
+			name="Biostein"
+			href="https://www.biostein.com/"
+			image="/images/refs/biostein.png"
+		/>
+		<Company
+			name="Mauerberger"
+			href="https://www.mauerberger-tore.de/"
+			image="/images/refs/mauerberger.png"
+		/>
+		<Company
+			class="p-8"
+			name="Solarbau Chiemgau"
+			href="https://solarbau-chiemgau.de/"
+			image="/images/refs/solarbau-chiemgau.png"
+		/>
+		<Company
+			class="bg-neutral p-8"
+			name="Zimmermann Transporte"
+			href="https://www.zimmermann-transporte.com/"
+			image="/images/refs/zimmermann.png"
+		/>
+	</div>
 </div>
 
 <div class="py-4">

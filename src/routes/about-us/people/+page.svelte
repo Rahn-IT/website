@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Über uns</title>
+	<title>Unser Team</title>
 	<meta name="description" content="Lernen Sie unser Personal kennen." />
 </svelte:head>
 
