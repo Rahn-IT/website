@@ -11,21 +11,36 @@
 	<meta name="description" content="Kontaktieren Sie uns per E-Mail oder Telefon." />
 </svelte:head>
 
-<div class="card card-side mt-10 bg-base-300 shadow-xl">
+<div class="card my-20 bg-base-300 shadow-xl md:card-side">
 	<figure>
-		<LogoStandalone class="pl-6" />
+		<LogoStandalone class="h-auto w-96 p-10" />
 	</figure>
 	<div class="card-body text-xl">
 		<div class="card-body">
 			<Address withName />
+			<div class="divider">Kontaktinformationen</div>
 			<div>
 				<Mail />
 			</div>
 			<div>
 				<Phone />
 			</div>
+			<div class="divider">Geschäftszeiten</div>
+			<div>
+				<table class="table table-xs w-64 p-0 text-lg">
+					<tr>
+						<td>Mo-Do:</td>
+						<td>09:00 - 16:30</td>
+					</tr>
+					<tr>
+						<td>Fr:</td>
+						<td>09:00 - 12:00</td>
+					</tr>
+				</table>
+				<b>24 Stunden Notdienst</b>
+			</div>
 		</div>
-		<div class="card-actions justify-end">
+		<div class="card-actions justify-center md:justify-end">
 			<VCard class="btn btn-neutral text-lg">Zu Kontakten hinzufügen</VCard>
 		</div>
 	</div>
