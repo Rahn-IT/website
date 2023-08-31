@@ -11,8 +11,8 @@
 	<div class="p-10">
 		<Person
 			name="Heinz Rahn"
-			caption="IT-Fachmann seit 1983, Windows-Administrator"
-			image="/images/people/luca.jpg"
+			caption="Windows-Administrator, IT-Fachmann seit 1983"
+			image="/images/people/heinz.jpg"
 		>
 			<p class="py-2">.</p>
 		</Person>

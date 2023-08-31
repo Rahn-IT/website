@@ -4,7 +4,7 @@
 </script>
 
 <div class="p-4">
-	<div class="card image-full w-full overflow-auto bg-base-100 shadow-xl">
+	<div class=" card image-full w-full overflow-auto bg-base-100 shadow-xl">
 		<figure class="absolute h-full w-full">
 			<img class="h-full w-full object-cover" src={image} alt={title} />
 		</figure>
