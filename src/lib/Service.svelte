@@ -4,9 +4,11 @@
 </script>
 
 <div class="p-4">
-	<div class="card image-full card-side h-96 bg-base-100 shadow-xl">
-		<figure class=""><img src={image} alt={title} /></figure>
-		<div class="card-body">
+	<div class="card image-full w-full overflow-auto bg-base-100 shadow-xl">
+		<figure class="absolute h-full w-full">
+			<img class="h-full w-full object-cover" src={image} alt={title} />
+		</figure>
+		<div class="card-body h-fit">
 			<h2 class="card-title">{title}</h2>
 			<slot />
 		</div>

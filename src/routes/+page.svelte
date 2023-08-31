@@ -10,7 +10,7 @@
 </svelte:head>
 
 <div class="py-4">
-	<h1 class="py-8 text-center text-4xl">Willkommen bei Rahn IT‑Systemtechnik</h1>
+	<h1 class="py-8 text-center text-4xl">Willkommen bei <nobr>Rahn IT‑Systemtechnik</nobr></h1>
 
 	<p class="py-2">
 		Wir betreuen Seit <b>{years}</b> Jahren professionell und zuverlässig die IT unserer Kunden.

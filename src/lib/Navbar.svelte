@@ -1,6 +1,13 @@
 <script lang="ts">
+	import { onNavigate } from '$app/navigation';
 	import LogoFull from '$lib/images/logo-full.svelte';
 	import MenuIcon from '$lib/images/MenuIcon.svelte';
+
+	let menuOpen = false;
+
+	onNavigate(async () => {
+		menuOpen = false;
+	});
 </script>
 
 <nav class="navbar h-20 shadow">
@@ -14,13 +21,13 @@
 			<slot />
 		</ul>
 	</div>
-	<div class="navbar-end">
-		<div class="drawer drawer-end w-auto">
-			<input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+	<div class="navbar-end lg:invisible">
+		<div class="drawer drawer-end z-50 w-auto">
+			<input id="my-drawer-4" bind:value={menuOpen} type="checkbox" class="drawer-toggle" />
 			<div class="drawer-content">
 				<!-- Page content here -->
 				<label for="my-drawer-4" class="btn btn-ghost drawer-button">
-					<MenuIcon class="h-8 w-8" />
+					<MenuIcon class="h-full w-auto" />
 				</label>
 			</div>
 			<div class="drawer-side">

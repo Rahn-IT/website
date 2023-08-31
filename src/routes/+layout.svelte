@@ -12,9 +12,10 @@
 		<li><a href="/emergency">Notdienst</a></li>
 		<li><a href="/services">Leistungen</a></li>
 		<li><a href="/remote">Fernwartung</a></li>
-		<li><a href="/contact-us">Kontakt</a></li>
+		<li><a href="/about-us">Über uns</a></li>
+		<li><a href="/contact">Kontakt</a></li>
 	</Navbar>
-	<main class="flex w-full flex-1 justify-center text-lg">
+	<main class="flex w-full flex-1 justify-center px-8 text-lg">
 		<div class="max-w-7xl flex-1">
 			<slot />
 		</div>
@@ -32,10 +33,11 @@
 			<a class="link-hover link" href="/emergency">Notfalldienst</a>
 			<a class="link-hover link" href="/services">Leistungen</a>
 			<a class="link-hover link" href="/remote">Fernwartung</a>
-			<a class="link-hover link" href="/contact-us">Kontakt</a>
+			<a class="link-hover link" href="/about-us">Über uns</a>
+			<a class="link-hover link" href="/contact">Kontakt</a>
 		</div>
 		<div>
-			<a class="link-hover link" href="/legal">Impressum</a>
+			<a class="link-hover link" href="/impressum">Impressum</a>
 		</div>
 	</Footer>
 </div>
