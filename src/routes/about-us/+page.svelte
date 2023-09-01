@@ -36,8 +36,8 @@
 		</p>
 		<p class="p-2">
 			Wir kennen nicht nur die Vorteile, sondern auch die Nachteile unserer Lösungen.<br />
-			Auch unsere Kunden haben ein Recht zu wissen, wo die Schwachstellen Ihre IT besitzt.<br />
-			Denn nur so ist eine informierte Entschedung möglich.
+			Auch unsere Kunden haben ein Recht zu wissen, wo die Schwachstellen Ihrer IT liegen.<br />
+			Denn nur so ist eine informierte Entscheidung möglich.
 		</p>
 		<p class="p-2">
 			Der Erfolg unserer Kunden ist auch unser Erfolg.<br />

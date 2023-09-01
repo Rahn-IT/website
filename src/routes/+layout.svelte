@@ -8,7 +8,6 @@
 
 <div class="app flex min-h-screen flex-col">
 	<Navbar>
-		<li><a href="/">Home</a></li>
 		<li><a href="/emergency">Notdienst</a></li>
 		<li><a href="/services">Leistungen</a></li>
 		<li><a href="/remote">Fernwartung</a></li>
