@@ -4,30 +4,63 @@
 </script>
 
 <svelte:head>
-	<title>Über uns</title>
-	<meta name="description" content="Erfahren Sie mehr über unser Unternehmen." />
+	<title>Unsere Prinzipen</title>
+	<meta name="description" content="Erfahren Sie, was uns antreibt." />
 </svelte:head>
 
-<div>
-	<h1>Geschichte</h1>
-	<p><nobr>Rahn IT-Systemtechnik</nobr>wurde 2004 von Heinz Rahn gegründet.</p>
-</div>
+<h1 class="pt-14 text-3xl">Unsere Prinzipien</h1>
+<div class="py-10">
+	<Service title="Pragmatische Arbeitsweise" image="/images/services/Gears.jpg">
+		<p class="p-2">
+			In der IT führen oftmals viele Wege zum Ziel. Selten gibt es "die Eine Lösung".
+		</p>
 
-<h1 class="text-3xl">Prinzipien</h1>
-<div>
+		<p class="p-2">
+			Unsere Ansätze und Lösungen richten sich nach den Bedürfnissen unserer Kunden. Dabei bemühen
+			wir uns um eine gesunde Balance aus erprobten Techniken und modernen Standards. Von uns hören
+			sie kein "Das haben wir schon immer so gemacht" und neue Lösungen werden von uns nur dann
+			angeboten, wenn sie wirklich wert sind.
+		</p>
+
+		<p class="p-2">
+			Sollte keine unserer etablierten Lösungen passen, finden wir eine Neue.<br />
+			Denn IT soll funktionieren und Spaß machen.
+		</p>
+	</Service>
+
+	<Service title="Ehrlichkeit und Transparenz" image="/images/services/Transparenz2.jpg">
+		<p class="p-2">
+			Eine erfolgreiche Zusammenarbeit braucht Vertrauen.<br />
+			Aus diesem Grund setzen wir bei unserer Arbeit auf Ehrlichkeit und Offenheit.<br />
+			Das selbe erwarten wir von unseren Kunden, denn nur so können wir uns verbessern.
+		</p>
+		<p class="p-2">
+			Wir kennen nicht nur die Vorteile, sondern auch die Nachteile unserer Lösungen.<br />
+			Auch unsere Kunden haben ein Recht zu wissen, wo die Schwachstellen Ihre IT besitzt.<br />
+			Denn nur so ist eine informierte Entschedung möglich.
+		</p>
+		<p class="p-2">
+			Der Erfolg unserer Kunden ist auch unser Erfolg.<br />
+			Wenn es um die Sicherheit und den Vortbestand Ihres Unternehmens geht, nehmen wir kein Blatt vor
+			den Mund.
+		</p>
+	</Service>
+
 	<Service title="Verantwortungsvoller Cloud-Umgang" image="/images/services/Cloud.jpg">
 		<p class="p-2">
-			Oft hört man Sätze wie "Die Cloud ist die Zukunft" oder "". Aber was ist denn eigentlich "die
-			Cloud"?
+			Große Firmen wie Microsoft oder Google werben gerne mit Sätzen wie "Die Cloud ist die Zukunft"
+			oder "Ihre daten sind in der Cloud sicher, geschützt und immer zugänglich". Aber was ist denn
+			eigentlich "die Cloud"?
 		</p>
 		<p class="p-2">
 			"Die Cloud" ist nichts anderes, als eine Gruppe an Computern, welche nicht Ihnen gehören.
+			<br />
 			Meist stehen die entsprechenden Geräte in einem Rechenzentrum.
 		</p>
 		<p class="p-2">
-			Sie haben dadurch natürlich den Vorteil, dass Sie sich um nichts kümmern müssen. Die
-			technischen Details werden Ihnen von vorne herein abgenommen und versteckt. Dank gutem
-			Marketing wird der Begriff "Cloud" gerne mit Sicherheit verbunden.
+			Für Sie bringt das den Vorteil, dass Sie sich um nichts kümmern müssen. Die technischen
+			Details werden Ihnen abgenommen und versteckt. Dank gutem Marketing wird der Begriff "Cloud"
+			gerne mit Sicherheit verbunden.
 		</p>
 		<h3 class="font-bold">Sicherheitsrisiken</h3>
 		<p class="p-2">
@@ -68,26 +101,4 @@
 			auf das Eine oder das Andere zu setzen.
 		</p>
 	</Service>
-
-	<Service title="Pragmatische Lösungsansätze" image="/images/services/Cloud.jpg">
-		<p class="p-2">
-			In der IT führen oftmals viele Wege zum Ziel. Selten gibt es "die Eine Lösung".
-		</p>
-
-		<p class="p-2">
-			Unsere Ansätze und Lösungen richten sich nach den Bedürfnissen unserer Kunden. Dabei bemühen
-			wir uns um eine gesunde Balance aus erprobten Techniken und modernen Standards. Von uns hören
-			sie kein "Das haben wir schon immer so gemacht" und neue Lösungen werden von uns nur dann
-			angeboten, wenn sie wirklich wert sind.
-		</p>
-
-		<p class="p-2">
-			Sollte keine unserer etablierten Lösungen passen, dann finden wir eine Neue.<br />
-			Denn IT soll funktionieren und Spaß machen.
-		</p>
-	</Service>
-
-	<Service title="Pragmatische Lösungsansätze" image="/images/services/Cloud.jpg"></Service>
-
-	<h2>Open-Source</h2>
 </div>
