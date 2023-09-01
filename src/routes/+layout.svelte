@@ -14,10 +14,10 @@
 		<li><a href="/remote">Fernwartung</a></li>
 		<li>
 			<details class="z-20">
-				<summary>Über uns</summary>
+				<summary>Unternehmen</summary>
 				<ul class="lg:top-10 lg:shadow-2xl lg:drop-shadow">
-					<li><a href="/about-us">Firma</a></li>
-					<li><a href="/about-us/people">Team</a></li>
+					<li><a href="/about-us">Über uns</a></li>
+					<li><a href="/about-us/people">Das Team</a></li>
 				</ul>
 			</details>
 		</li>
@@ -41,11 +41,11 @@
 			<a class="link-hover link" href="/emergency">Notfalldienst</a>
 			<a class="link-hover link" href="/services">Leistungen</a>
 			<a class="link-hover link" href="/remote">Fernwartung</a>
-			<a class="link-hover link" href="/about-us">Über Rahn-IT</a>
-			<a class="link-hover link" href="/about-us/people">Über das Team</a>
-			<a class="link-hover link" href="/contact">Kontakt</a>
+			<a class="link-hover link" href="/about-us">Über Uns</a>
+			<a class="link-hover link" href="/about-us/people">Das Team</a>
 		</div>
 		<div>
+			<a class="link-hover link" href="/contact">Kontakt</a>
 			<a class="link-hover link" href="/impressum">Impressum</a>
 		</div>
 	</Footer>

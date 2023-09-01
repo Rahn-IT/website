@@ -9,7 +9,7 @@
 			<img class="h-full w-full object-cover" src={image} alt={title} />
 		</figure>
 		<div class="card-body h-fit">
-			<h2 class="card-title">{title}</h2>
+			<h2 class="card-title text-2xl">{title}</h2>
 			<slot />
 		</div>
 	</div>

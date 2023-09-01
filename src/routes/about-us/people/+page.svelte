@@ -4,7 +4,7 @@
 
 <svelte:head>
 	<title>Unser Team</title>
-	<meta name="description" content="Lernen Sie unser Personal kennen." />
+	<meta name="description" content="Lernen Sie unser Team kennen." />
 </svelte:head>
 
 <div class="grid grid-cols-1">
@@ -14,7 +14,14 @@
 			caption="Windows-Administrator, IT-Fachmann seit 1983"
 			image="/images/people/heinz.jpg"
 		>
-			<p class="py-2">.</p>
+			<p class="py-2">
+				Mein erster Computer war der Sinclair ZX81, den ich damals noch per Hand lötete.
+			</p>
+			<p class="py-2">
+				2004 machte ich mich schließlich selbstständig und eröffnete <nobr
+					>Rahn IT-Systemtechnik.</nobr
+				>
+			</p>
 		</Person>
 	</div>
 
