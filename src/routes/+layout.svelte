@@ -1,5 +1,4 @@
 <script lang="ts">
-	export const prerender = true;
 	import Footer from '$lib/Footer.svelte';
 	import Navbar from '$lib/Navbar.svelte';
 	import LogoStandalone from '$lib/images/logo-standalone.svelte';
