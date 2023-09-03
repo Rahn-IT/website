@@ -1,5 +1,7 @@
 <script>
 	import Person from '$lib/Person.svelte';
+	import Luca from '$lib/images/people/luca.jpg';
+	import Heinz from '$lib/images/people/heinz.jpg';
 </script>
 
 <svelte:head>
@@ -9,11 +11,7 @@
 
 <div class="grid w-full grid-cols-1">
 	<div class="py-10">
-		<Person
-			name="Heinz Rahn"
-			caption="Windows-Administrator, IT-Fachmann seit 1983"
-			image="/images/people/heinz.jpg"
-		>
+		<Person name="Heinz Rahn" caption="Windows-Administrator, IT-Fachmann seit 1983" image={Heinz}>
 			<p class="py-2">
 				Mein erster Computer war der Sinclair ZX81, den ich damals noch per Hand lötete.
 			</p>
@@ -26,11 +24,7 @@
 	</div>
 
 	<div class="py-10">
-		<Person
-			name="Luca Wlcek"
-			caption="Linux-Administrator, Webentwickler"
-			image="/images/people/luca.jpg"
-		>
+		<Person name="Luca Wlcek" caption="Linux-Administrator, Webentwickler" image={Luca}>
 			<p class="py-2">Mit Heinz als Vater bin ich von klein auf mit Computern groß geworden.</p>
 			<p class="py-2">Als ich 7 Jahre alt war bekam ich meinen ersten eigenen Computer.</p>
 			<p class="py-2">

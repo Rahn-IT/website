@@ -1,5 +1,8 @@
 <script>
 	import Service from '$lib/Service.svelte';
+	import Gears from '$lib/images/services/Gears.jpg';
+	import Transparenz from '$lib/images/services/Transparenz2.jpg';
+	import Cloud from '$lib/images/services/Cloud.jpg';
 </script>
 
 <svelte:head>
@@ -9,7 +12,7 @@
 
 <h1 class="pt-14 text-3xl">Unsere Prinzipien</h1>
 <div class="py-10">
-	<Service title="Pragmatische Arbeitsweise" image="/images/services/Gears.jpg">
+	<Service title="Pragmatische Arbeitsweise" image={Gears}>
 		<p class="p-2">
 			In der IT führen oftmals viele Wege zum Ziel. Selten gibt es "die Eine Lösung".
 		</p>
@@ -27,7 +30,7 @@
 		</p>
 	</Service>
 
-	<Service title="Ehrlichkeit und Transparenz" image="/images/services/Transparenz2.jpg">
+	<Service title="Ehrlichkeit und Transparenz" image={Transparenz}>
 		<p class="p-2">
 			Eine erfolgreiche Zusammenarbeit braucht Vertrauen.<br />
 			Aus diesem Grund setzen wir bei unserer Arbeit auf Ehrlichkeit und Offenheit.<br />
@@ -45,7 +48,7 @@
 		</p>
 	</Service>
 
-	<Service title="Verantwortungsvoller Cloud-Umgang" image="/images/services/Cloud.jpg">
+	<Service title="Verantwortungsvoller Cloud-Umgang" image={Cloud}>
 		<p class="p-2">
 			Große Firmen wie Microsoft oder Google werben gerne mit Sätzen wie "Die Cloud ist die Zukunft"
 			oder "Ihre daten sind in der Cloud sicher, geschützt und immer zugänglich". Aber was ist denn

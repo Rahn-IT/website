@@ -1,6 +1,17 @@
 <script lang="ts">
 	import Company from '$lib/Company.svelte';
 	import NoCookie from '$lib/images/NoCookie.svelte';
+	import Fischer from '$lib/images/refs/fischer.png';
+	import Autowelt from '$lib/images/refs/autowelt.jpg';
+	import Mayer from '$lib/images/refs/mayer.jpg';
+	import Danzl from '$lib/images/refs/danzl.jpg';
+	import Langlechner from '$lib/images/refs/langlechner.png';
+	import Fitworld from '$lib/images/refs/fitworld.png';
+	import Heiss from '$lib/images/refs/heiss.png';
+	import Biostein from '$lib/images/refs/biostein.png';
+	import Mauerberger from '$lib/images/refs/mauerberger.png';
+	import SolarbauChiemgau from '$lib/images/refs/solarbau-chiemgau.png';
+	import Zimmermann from '$lib/images/refs/zimmermann.png';
 
 	const years = new Date().getFullYear() - 2004;
 </script>
@@ -63,61 +74,32 @@
 			class="bg-neutral p-10"
 			name="Fischer"
 			href="https://spenglerei-fischer.de"
-			image="/images/refs/fischer.png"
+			image={Fischer}
 		/>
-		<Company
-			name="Autowelt Ostermaier"
-			href="https://autowelt-ostermaier.de"
-			image="/images/refs/autowelt.jpg"
-		/>
-		<Company
-			name="Erbenermittlung Mayer"
-			href="https://erben-mayer.de/"
-			image="/images/refs/mayer.jpg"
-		/>
-		<Company
-			name="Danzl Gartentechnik"
-			href="https://www.danzl-gartentechnik.de/"
-			image="/images/refs/danzl.jpg"
-		/>
-		<Company
-			name="Langlechner"
-			href="https://langlechner-haustechnik.de/"
-			image="/images/refs/langlechner.png"
-		/>
+		<Company name="Autowelt Ostermaier" href="https://autowelt-ostermaier.de" image={Autowelt} />
+		<Company name="Erbenermittlung Mayer" href="https://erben-mayer.de/" image={Mayer} />
+		<Company name="Danzl Gartentechnik" href="https://www.danzl-gartentechnik.de/" image={Danzl} />
+		<Company name="Langlechner" href="https://langlechner-haustechnik.de/" image={Langlechner} />
 		<Company
 			class="bg-neutral p-8"
 			name="Fitworld"
 			href="https://www.fitworldts.de/"
-			image="/images/refs/fitworld.png"
+			image={Fitworld}
 		/>
-		<Company
-			name="Rechtsanwälte Heiß"
-			href="https://www.rechtsanwaelte-heiss.de/"
-			image="/images/refs/heiss.png"
-		/>
-		<Company
-			class="p-8"
-			name="Biostein"
-			href="https://www.biostein.com/"
-			image="/images/refs/biostein.png"
-		/>
-		<Company
-			name="Mauerberger"
-			href="https://www.mauerberger-tore.de/"
-			image="/images/refs/mauerberger.png"
-		/>
+		<Company name="Rechtsanwälte Heiß" href="https://www.rechtsanwaelte-heiss.de/" image={Heiss} />
+		<Company class="p-8" name="Biostein" href="https://www.biostein.com/" image={Biostein} />
+		<Company name="Mauerberger" href="https://www.mauerberger-tore.de/" image={Mauerberger} />
 		<Company
 			class="p-8"
 			name="Solarbau Chiemgau"
 			href="https://solarbau-chiemgau.de/"
-			image="/images/refs/solarbau-chiemgau.png"
+			image={SolarbauChiemgau}
 		/>
 		<Company
 			class="bg-neutral p-8"
 			name="Zimmermann Transporte"
 			href="https://www.zimmermann-transporte.com/"
-			image="/images/refs/zimmermann.png"
+			image={Zimmermann}
 		/>
 	</div>
 </div>
