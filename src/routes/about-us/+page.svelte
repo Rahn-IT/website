@@ -1,6 +1,5 @@
 <script>
 	import Service from '$lib/Service.svelte';
-	import Address from '$lib/info/Address.svelte';
 </script>
 
 <svelte:head>
