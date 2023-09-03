@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Company from '$lib/Company.svelte';
 	import NoCookie from '$lib/images/NoCookie.svelte';
-	import { name } from '$lib/info/info';
 
 	const years = new Date().getFullYear() - 2004;
 </script>
