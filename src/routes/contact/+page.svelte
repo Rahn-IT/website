@@ -15,7 +15,7 @@
 	<figure>
 		<LogoStandalone class="h-auto w-96 p-10" />
 	</figure>
-	<div class="card-body text-xl">
+	<div class="card-body px-0 text-xl md:px-4">
 		<div class="card-body">
 			<Address withName />
 			<div class="divider">Kontaktinformationen</div>
