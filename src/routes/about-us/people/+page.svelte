@@ -7,8 +7,8 @@
 	<meta name="description" content="Lernen Sie unser Team kennen." />
 </svelte:head>
 
-<div class="grid grid-cols-1">
-	<div class="p-10">
+<div class="grid w-full grid-cols-1">
+	<div class="py-10">
 		<Person
 			name="Heinz Rahn"
 			caption="Windows-Administrator, IT-Fachmann seit 1983"
@@ -25,7 +25,7 @@
 		</Person>
 	</div>
 
-	<div class="p-10">
+	<div class="py-10">
 		<Person
 			name="Luca Wlcek"
 			caption="Linux-Administrator, Webentwickler"

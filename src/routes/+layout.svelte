@@ -8,6 +8,7 @@
 
 <div class="app flex min-h-screen flex-col">
 	<Navbar>
+		<li class="lg:hidden"><a href="/">Home</a></li>
 		<li><a href="/emergency">Notdienst</a></li>
 		<li><a href="/services">Leistungen</a></li>
 		<li><a href="/remote">Fernwartung</a></li>
@@ -23,7 +24,7 @@
 		<li><a href="/contact">Kontakt</a></li>
 	</Navbar>
 	<main class="flex w-full flex-1 justify-center px-8 text-lg">
-		<div class="max-w-7xl flex-1">
+		<div class="w-full max-w-7xl">
 			<slot />
 		</div>
 	</main>
