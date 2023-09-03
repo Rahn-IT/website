@@ -1,6 +1,15 @@
 <script>
 	import Service from '$lib/Service.svelte';
 	import Phone from '$lib/info/Phone.svelte';
+
+	import Beratung from '$lib/images/services/Beratung.jpg';
+	import Administration from '$lib/images/services/Administration.jpg';
+	import Netzwerk from '$lib/images/services/Netzwerk.jpg';
+	import Festplatte from '$lib/images/services/Festplatte.jpg';
+	import Security from '$lib/images/services/Security.jpg';
+	import Telefonie from '$lib/images/services/Telefonie.jpg';
+	import Videoüberwachung from '$lib/images/services/Videoüberwachung.jpg';
+	import Programmierung from '$lib/images/services/Programmierung.jpg';
 </script>
 
 <svelte:head>
@@ -12,7 +21,7 @@
 </svelte:head>
 
 <div class="py-8">
-	<Service title="Persönliche Beratung" image="/images/services/Beratung.jpg">
+	<Service title="Persönliche Beratung" image={Beratung}>
 		<div class="p-2">
 			<p>Eine erfolgreiche Zusammenarbeit braucht Vertrauen.</p>
 			<p>Egal welches Problem oder welche Fragen Sie haben, wir haben immer ein offenes Ohr.</p>
@@ -31,7 +40,7 @@
 		</div>
 	</Service>
 
-	<Service title="Administration" image="/images/services/Administration.jpg">
+	<Service title="Administration" image={Administration}>
 		<div class="p-2">
 			<p>
 				In der digitalen Welt ist eine reibungslose IT von entscheidender Bedeutung für Ihr
@@ -49,7 +58,7 @@
 		</div>
 	</Service>
 
-	<Service title="Netzwerk" image="/images/services/Netzwerk.jpg">
+	<Service title="Netzwerk" image={Netzwerk}>
 		<div class="p-2">
 			<p>
 				Ihr Netzwerk ist das Rückrad ihrer Infrastruktur. Egal wo Sie arbeiten wollen, Sie benötigen
@@ -67,7 +76,7 @@
 		</div>
 	</Service>
 
-	<Service title="Backup" image="/images/services/Festplatte.jpg">
+	<Service title="Backup" image={Festplatte}>
 		<div class="p-2">
 			<p><i>Auf das Beste hoffen, auf das schlimmste vorbereitet sein</i></p>
 		</div>
@@ -89,7 +98,7 @@
 		</div>
 	</Service>
 
-	<Service title="Cyber-Sicherheit" image="/images/services/Security.jpg">
+	<Service title="Cyber-Sicherheit" image={Security}>
 		<div class="p-2">
 			<p>Von Jahr zu Jahr steigt die Anzahl der Angriffe auf IT-Systeme.</p>
 			<p>Ein erfolgreicher Angriff kann großen Schaden anrichten.</p>
@@ -106,7 +115,7 @@
 		</div>
 	</Service>
 
-	<Service title="Telefonie" image="/images/services/Telefonie.jpg">
+	<Service title="Telefonie" image={Telefonie}>
 		<div class="p-2">
 			<p>
 				Ein Erfolgreiches Unternehmen braucht eine vielseitige und zuverlässige Telefonie-Lösung.
@@ -126,7 +135,7 @@
 		</div>
 	</Service>
 
-	<Service title="Videoüberwachung" image="/images/services/Videoüberwachung.jpg">
+	<Service title="Videoüberwachung" image={Videoüberwachung}>
 		<div class="p-2">
 			<p>Nicht nur die digitale Sicherheit ist relavant.</p>
 			<p>Behalten Sie von überall aus eine wachsamen Auge auf Ihre Geschäftgebäude.</p>
@@ -137,7 +146,7 @@
 		</div>
 	</Service>
 
-	<Service title="Programmierung" image="/images/services/Programmierung.jpg">
+	<Service title="Programmierung" image={Programmierung}>
 		<div class="p-2">
 			<p>Manchmal reicht eine fertige Lösung nicht aus.</p>
 			<p>Sie brauchen Software, die speziell auf Sie zugeschnitten ist.</p>
