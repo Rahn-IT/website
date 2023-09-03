@@ -3,7 +3,8 @@
 	export { classes as class };
 </script>
 
-<svg xmlns="http://www.w3.org/2000/svg" class={classes} viewBox="-22.5 -27.5 3132.5 535">
+<svg xmlns="http://www.w3.org/2000/svg" class={classes} viewBox="-22.5 -27.5 3132.5 535" role="img">
+	<title>Rahn IT-Systemtechnik</title>
 	<g transform="rotate(-90 242.5 262.5)">
 		<path
 			stroke-linejoin="round"

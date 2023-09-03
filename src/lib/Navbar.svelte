@@ -40,15 +40,15 @@
 	</div>
 	<div class="navbar-end lg:invisible">
 		<div class="drawer drawer-end z-50 w-auto">
-			<input id="my-drawer-4" bind:checked={menuOpen} type="checkbox" class="drawer-toggle" />
+			<input id="mobile-menu" bind:checked={menuOpen} type="checkbox" class="drawer-toggle" />
 			<div class="drawer-content">
 				<!-- Page content here -->
-				<label for="my-drawer-4" class="btn btn-ghost drawer-button">
+				<label for="mobile-menu" class="btn btn-ghost drawer-button">
 					<MenuIcon class="h-full w-auto" />
 				</label>
 			</div>
 			<div class="drawer-side">
-				<label for="my-drawer-4" class="drawer-overlay"></label>
+				<label for="mobile-menu" class="drawer-overlay"></label>
 				<ul class="menu menu-lg min-h-full w-80 bg-base-200 p-4 text-base-content">
 					<slot />
 				</ul>
