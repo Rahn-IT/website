@@ -29,3 +29,34 @@ steps:
       - npm run build
     depends_on:
       - install dependencies
+
+---
+kind: pipeline
+type: docker
+
+name: Docker build
+
+depends_on:
+  - Tests
+
+volumes:
+  - name: dockersock
+    temp: {}
+
+steps:
+  - name: Building Frontend Docker Image
+    image: plugins/docker
+    settings:
+      username:
+        from_secret: docker_username
+      password:
+        from_secret: docker_password
+      repo:
+        from_secret: docker_repo
+      registry:
+        from_secret: docker_registry
+      squash: true
+      tags:
+        - ${DRONE_COMMIT_BRANCH}
+    depends_on:
+      - clone
