@@ -8,14 +8,14 @@
 
 <div class="app flex min-h-screen flex-col">
 	<Navbar>
-		<li class="lg:hidden"><a href="/">Home</a></li>
+		<li class="xl:hidden"><a href="/">Home</a></li>
 		<li><a href="/emergency">Notdienst</a></li>
 		<li><a href="/services">Leistungen</a></li>
 		<li><a href="/remote">Fernwartung</a></li>
 		<li>
 			<details class="z-20">
 				<summary>Unternehmen</summary>
-				<ul class="lg:top-10 lg:shadow-2xl lg:drop-shadow">
+				<ul class="xl:top-10 xl:shadow-2xl xl:drop-shadow">
 					<li><a href="/about-us">Unsere Prinzipen</a></li>
 					<li><a href="/about-us/people">Das Team</a></li>
 				</ul>

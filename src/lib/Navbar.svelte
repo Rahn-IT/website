@@ -33,12 +33,12 @@
 			<LogoFull class="h-full" />
 		</a>
 	</div>
-	<div class="navbar-center hidden lg:flex">
+	<div class="navbar-center hidden xl:flex">
 		<ul class="menu menu-horizontal menu-lg p-0">
 			<slot />
 		</ul>
 	</div>
-	<div class="navbar-end lg:invisible">
+	<div class="navbar-end xl:invisible">
 		<div class="drawer drawer-end z-50 w-auto">
 			<input id="mobile-menu" bind:checked={menuOpen} type="checkbox" class="drawer-toggle" />
 			<div class="drawer-content">
