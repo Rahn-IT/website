@@ -21,7 +21,7 @@
 			Unsere Ansätze und Lösungen richten sich nach den Bedürfnissen unserer Kunden. Dabei bemühen
 			wir uns um eine gesunde Balance aus erprobten Techniken und modernen Standards. Von uns hören
 			sie kein "Das haben wir schon immer so gemacht" und neue Lösungen werden von uns nur dann
-			angeboten, wenn sie wirklich wert sind.
+			angeboten, wenn sie es wirklich wert sind.
 		</p>
 
 		<p class="p-2">
