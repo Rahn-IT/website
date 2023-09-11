@@ -5,11 +5,13 @@ import { imagetools } from 'vite-imagetools';
 export default defineConfig({
 	plugins: [
 		imagetools({
-			defaultDirectives: new URLSearchParams({
-				format: 'avif;webp',
-				as: 'picture',
-				w: '400;800;1200'
-			})
+			defaultDirectives: (url) => {
+				return new URLSearchParams({
+					format: 'avif;webp',
+					as: 'picture',
+					w: '400;800;1200'
+				});
+			}
 		}),
 		sveltekit()
 	]
