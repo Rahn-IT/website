@@ -16,7 +16,7 @@
 	<title>Leistungen</title>
 	<meta
 		name="description"
-		content="Von Administration über Netzwerktehnik bis zur Programmierung eigener Software - Bei uns finden Sie, was Sie brauchen."
+		content="Von Administration über Netzwerktechnik bis zur Programmierung eigener Software - Bei uns finden Sie, was Sie brauchen."
 	/>
 </svelte:head>
 
