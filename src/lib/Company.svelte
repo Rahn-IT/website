@@ -6,6 +6,10 @@
 	export { classes as class };
 </script>
 
-<a {href} class="tooltip h-full flex-shrink-0 flex-grow-0 {classes}" data-tip={name}>
+<a
+	{href}
+	class="h-full flex-shrink-0 flex-grow-0 snap-center hover:brightness-125 hover:filter {classes}"
+	data-tip={name}
+>
 	<img class="h-full w-auto max-w-md object-contain" src={image} alt={name} />
 </a>
