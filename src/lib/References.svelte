@@ -22,9 +22,10 @@
 		let middleOffset = Number.MAX_VALUE;
 		let middleElement = null;
 		for (let i = 0; i < container.children.length; i++) {
+			const pos = container.children[i].offsetLeft - container.offsetLeft;
 			const newOffset = Math.abs(
-				container.children[i].offsetLeft +
-					0.5 * container.children[i].clientWidth -
+				pos +
+					container.children[i].clientWidth * 0.5 -
 					container.scrollLeft -
 					container.clientWidth * 0.5
 			);
@@ -52,8 +53,8 @@
 		}
 
 		if (nextElement !== null) {
-			const newScroll =
-				nextElement.offsetLeft + nextElement.clientWidth * 0.5 - container.clientWidth * 0.5;
+			const pos = nextElement.offsetLeft - container.offsetLeft;
+			const newScroll = pos + nextElement.clientWidth * 0.5 - container.clientWidth * 0.5;
 			container.scrollTo({
 				left: newScroll,
 				behavior: 'smooth'
@@ -62,18 +63,12 @@
 	}
 </script>
 
-<div class="relative h-40">
-	<button
-		class="absolute left-0 z-10 h-full w-16 cursor-pointer hover:backdrop-brightness-90"
-		on:click={() => scroll('left')}><IconLeft /></button
-	>
-	<button
-		class="absolute right-0 z-10 h-full w-16 cursor-pointer hover:backdrop-brightness-90"
-		on:click={() => scroll('right')}><IconRight /></button
+<div class="flex h-40 flex-row">
+	<button class="btn btn-ghost h-full w-16 p-0" on:click={() => scroll('left')}><IconLeft /></button
 	>
 	<div
 		bind:this={container}
-		class="no-scrollbar absolute flex h-full w-full snap-x snap-mandatory flex-row flex-nowrap gap-16 overflow-x-scroll px-96"
+		class="no-scrollbar flex h-full flex-1 snap-x snap-mandatory flex-row flex-nowrap gap-16 overflow-x-scroll"
 	>
 		<Company
 			class="bg-neutral p-10"
@@ -117,6 +112,9 @@
 			image={Zimmermann}
 		/>
 	</div>
+	<button class="btn btn-ghost h-full w-16 p-0" on:click={() => scroll('right')}
+		><IconRight /></button
+	>
 </div>
 
 <style>
@@ -127,5 +125,6 @@
 	.no-scrollbar {
 		-ms-overflow-style: none; /* IE and Edge */
 		scrollbar-width: none; /* Firefox */
+		padding: 0 50%;
 	}
 </style>
