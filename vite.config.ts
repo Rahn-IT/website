@@ -5,7 +5,7 @@ import { imagetools } from 'vite-imagetools';
 export default defineConfig({
 	plugins: [
 		imagetools({
-			defaultDirectives: (url) => {
+			defaultDirectives: () => {
 				return new URLSearchParams({
 					format: 'avif;webp',
 					as: 'picture',
