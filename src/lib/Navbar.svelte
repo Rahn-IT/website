@@ -40,15 +40,26 @@
 	</div>
 	<div class="navbar-end xl:invisible">
 		<div class="drawer drawer-end z-50 w-auto">
-			<input id="mobile-menu" bind:checked={menuOpen} type="checkbox" class="drawer-toggle" />
+			<input
+				id="mobile-menu"
+				bind:checked={menuOpen}
+				type="checkbox"
+				class="drawer-toggle"
+				aria-hidden
+			/>
 			<div class="drawer-content">
 				<!-- Page content here -->
-				<label for="mobile-menu" class="btn btn-ghost drawer-button">
+				<label
+					for="mobile-menu"
+					class="btn btn-ghost drawer-button"
+					aria-hidden
+					aria-label="Open menu"
+				>
 					<MenuIcon class="h-full w-auto" />
 				</label>
 			</div>
 			<div class="drawer-side">
-				<label for="mobile-menu" class="drawer-overlay"></label>
+				<label for="mobile-menu" class="drawer-overlay" aria-hidden aria-label="Close menu"></label>
 				<ul class="menu menu-lg min-h-full w-80 bg-base-200 p-4 text-base-content">
 					<slot />
 				</ul>

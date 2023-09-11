@@ -8,7 +8,7 @@
 	import Festplatte from '$lib/images/services/Festplatte.jpg';
 	import Security from '$lib/images/services/Security.jpg';
 	import Telefonie from '$lib/images/services/Telefonie.jpg';
-	import Videoüberwachung from '$lib/images/services/Videoüberwachung.jpg';
+	import Videoüberwachung from '$lib/images/services/Videoueberwachung.jpg';
 	import Programmierung from '$lib/images/services/Programmierung.jpg';
 </script>
 

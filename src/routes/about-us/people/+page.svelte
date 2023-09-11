@@ -1,7 +1,7 @@
 <script>
 	import Person from '$lib/Person.svelte';
-	import Luca from '$lib/images/people/luca.jpg';
 	import Heinz from '$lib/images/people/heinz.jpg';
+	import Luca from '$lib/images/people/luca.jpg';
 </script>
 
 <svelte:head>
