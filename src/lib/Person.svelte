@@ -5,7 +5,7 @@
 </script>
 
 <div class="card w-full rounded-3xl bg-base-300 shadow-xl lg:card-side">
-	<figure class="h-full flex-shrink-0 lg:w-96">
+	<figure class="lg:max-w-sm">
 		<img class="h-full w-full rounded-3xl" src={image} alt="Bild von {name}" />
 	</figure>
 	<div class="card-body">

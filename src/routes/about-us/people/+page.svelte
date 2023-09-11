@@ -13,7 +13,18 @@
 	<div class="py-10">
 		<Person name="Heinz Rahn" caption="Windows-Administrator, IT-Fachmann seit 1983" image={Heinz}>
 			<p class="py-2">
-				Mein erster Computer war der Sinclair ZX81, den ich damals noch per Hand lötete.
+				Mein erster Computer war der Sinclair ZX81, ein 8-Bit Computer, den ich damals noch per Hand
+				lötete.
+			</p>
+			<p class="py-2">
+				Während meiner Laufbahn bekam ich den Einzug des Computers in alle Lebensbereiche hautnah
+				mit. Vom Commodore 64 über PCs mit OS/2 bis hin zum Einzug von Windows. Nachdem immer mehr
+				Freunde und Bekannte mit ihren Anliegen zu mir kamen, beschloss ich schließlich mein Hobby
+				zum Beruf zu machen.
+			</p>
+			<p class="py-2">
+				Bis in in die 2000er Jahre arbeitete ich bei Gemeinden, Systemhäusern und war Mitglied
+				einiger Interessengemeinschaften.
 			</p>
 			<p class="py-2">
 				2004 machte ich mich schließlich selbstständig und eröffnete <nobr
