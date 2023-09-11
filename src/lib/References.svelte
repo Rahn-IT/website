@@ -17,21 +17,19 @@
 
 	let container: HTMLDivElement | undefined;
 
-	function findMiddleElement(): Element | null {
+	function findMiddleElement(): HTMLLinkElement | null {
 		if (container === undefined) return null;
 		let middleOffset = Number.MAX_VALUE;
 		let middleElement = null;
 		for (let i = 0; i < container.children.length; i++) {
-			const pos = container.children[i].offsetLeft - container.offsetLeft;
+			const child: HTMLLinkElement = container.children[i] as HTMLLinkElement;
+			const pos = child.offsetLeft - container.offsetLeft;
 			const newOffset = Math.abs(
-				pos +
-					container.children[i].clientWidth * 0.5 -
-					container.scrollLeft -
-					container.clientWidth * 0.5
+				pos + child.clientWidth * 0.5 - container.scrollLeft - container.clientWidth * 0.5
 			);
 			if (newOffset < middleOffset) {
 				middleOffset = newOffset;
-				middleElement = container.children[i];
+				middleElement = child;
 			} else {
 				return middleElement;
 			}
@@ -45,11 +43,11 @@
 		const el = findMiddleElement();
 		if (el === null) return;
 
-		let nextElement: Element | null;
+		let nextElement: HTMLLinkElement | null;
 		if (direction === 'left') {
-			nextElement = el.previousElementSibling;
+			nextElement = el.previousElementSibling as HTMLLinkElement | null;
 		} else {
-			nextElement = el.nextElementSibling;
+			nextElement = el.nextElementSibling as HTMLLinkElement | null;
 		}
 
 		if (nextElement !== null) {
