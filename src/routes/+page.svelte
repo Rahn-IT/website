@@ -56,7 +56,7 @@
 	</ul>
 </div>
 
-<div class="py-4">
+<div class="w-full py-4">
 	<h2 class="pt-8 text-3xl">Referenzen</h2>
 	<References />
 </div>

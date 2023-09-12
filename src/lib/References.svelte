@@ -61,12 +61,13 @@
 	}
 </script>
 
-<div class="flex h-40 flex-row">
-	<button class="btn btn-ghost h-full w-16 p-0" on:click={() => scroll('left')}><IconLeft /></button
+<div class="grid h-40 w-full grid-cols-[4rem_1fr_4rem]">
+	<button class="btn btn-ghost h-full w-full p-0" on:click={() => scroll('left')}
+		><IconLeft /></button
 	>
 	<div
 		bind:this={container}
-		class="no-scrollbar flex h-full flex-1 snap-x snap-mandatory flex-row flex-nowrap gap-16 overflow-x-scroll"
+		class="no-scrollbar flex h-full w-full max-w-full flex-grow-0 snap-x snap-mandatory flex-row flex-nowrap gap-16 overflow-x-scroll"
 	>
 		<Company
 			class="bg-neutral p-10"
@@ -110,7 +111,7 @@
 			image={Zimmermann}
 		/>
 	</div>
-	<button class="btn btn-ghost h-full w-16 p-0" on:click={() => scroll('right')}
+	<button class="btn btn-ghost h-full w-full p-0" on:click={() => scroll('right')}
 		><IconRight /></button
 	>
 </div>
