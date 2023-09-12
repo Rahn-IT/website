@@ -10,7 +10,7 @@
 
 	export let decoding: 'async' | 'sync' | 'auto' = 'async';
 
-	export let loading: 'lazy' | 'eager' = 'lazy';
+	export let loading: 'lazy' | 'eager' = 'eager';
 
 	let classes = '';
 	export { classes as class };
