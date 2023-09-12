@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Price from '$lib/Price.svelte';
 	import Pricelist from '$lib/Pricelist.svelte';
+	import Mail from '$lib/info/Mail.svelte';
+	import Phone from '$lib/info/Phone.svelte';
 </script>
 
 <svelte:head>
@@ -23,5 +25,10 @@
 		</Price>
 	</Pricelist>
 
-	<div>Unsere Preise für Geräte richten sich nach unseren Aktuellen Einkaufspreisen.</div>
+	<div class="py-8">
+		<div>Unsere Preise für Geräte richten sich nach unseren Aktuellen Einkaufspreisen.</div>
+		<div>Für ein angebot Rufen Sie uns an oder schreiben Sie uns eine E-Mail.</div>
+		<div><Phone /></div>
+		<div><Mail /></div>
+	</div>
 </div>
