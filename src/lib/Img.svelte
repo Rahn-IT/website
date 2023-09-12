@@ -16,15 +16,15 @@
 	export { classes as class };
 </script>
 
-<picture>
+<picture class={classes}>
 	{#each Object.entries(src.sources) as [format, images]}
 		<source srcset={images.map((i) => `${i.src} ${i.w}w`).join(', ')} type={'image/' + format} />
 	{/each}
 
 	<img
+		class="h-full w-full object-contain"
 		src={src.img.src}
 		{alt}
-		class={classes}
 		{loading}
 		{decoding}
 		{draggable}

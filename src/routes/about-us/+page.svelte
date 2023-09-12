@@ -43,7 +43,7 @@
 		</p>
 		<p class="p-2">
 			Der Erfolg unserer Kunden ist auch unser Erfolg.<br />
-			Wenn es um die Sicherheit und den Vortbestand Ihres Unternehmens geht, nehmen wir kein Blatt vor
+			Wenn es um die Sicherheit und den Fortbestand Ihres Unternehmens geht, nehmen wir kein Blatt vor
 			den Mund.
 		</p>
 	</Service>
@@ -51,7 +51,7 @@
 	<Service title="Verantwortungsvoller Cloud-Umgang" image={Cloud}>
 		<p class="p-2">
 			Große Firmen wie Microsoft oder Google werben gerne mit Sätzen wie "Die Cloud ist die Zukunft"
-			oder "Ihre daten sind in der Cloud sicher, geschützt und immer zugänglich". Aber was ist denn
+			oder "Ihre Daten sind in der Cloud sicher, geschützt und immer zugänglich". Aber was ist denn
 			eigentlich "die Cloud"?
 		</p>
 		<p class="p-2">
@@ -73,8 +73,8 @@
 		</p>
 		<p class="p-2">
 			Ein Beispiel hierfür ist der Diebstahl eines kryptographischen Signing-Schlüssels von
-			Microsoft. Bei dem genannten Vorfall erlangte ein chinesischer Akteur einen vollumfassenden
-			Zugriff die Daten von Microsofts Cloud-Kunden.
+			Microsoft. Bei dem genannten Vorfall erlangte eine Hackergruppe einen vollumfassenden Zugriff
+			auf die Daten von Microsofts Cloud-Kunden.
 		</p>
 
 		<p class="p-2">

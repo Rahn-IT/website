@@ -5,6 +5,9 @@
 
 	let menuOpen = false;
 
+	let classes = '';
+	export { classes as class };
+
 	let navBar: HTMLElement | undefined;
 
 	onNavigate(async () => {
@@ -27,7 +30,7 @@
 
 <svelte:document on:mouseup={closeSubMenus} />
 
-<nav bind:this={navBar} class=" navbar h-20 shadow dark:bg-base-200">
+<nav bind:this={navBar} class={classes}>
 	<div class="navbar-start h-full">
 		<a class="btn btn-ghost h-full" href="/">
 			<LogoFull class="h-full" />

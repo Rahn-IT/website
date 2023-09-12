@@ -7,7 +7,7 @@
 </script>
 
 <div class="app flex min-h-screen flex-col">
-	<Navbar>
+	<Navbar class="navbar fixed z-50 h-20 shadow dark:bg-base-200">
 		<li class="xl:hidden"><a href="/">Home</a></li>
 		<li><a href="/emergency">Notdienst</a></li>
 		<li><a href="/services">Leistungen</a></li>
@@ -24,7 +24,7 @@
 		</li>
 		<li><a href="/contact">Kontakt</a></li>
 	</Navbar>
-	<main class="flex w-full flex-1 justify-center px-8 text-lg">
+	<main class="flex w-full flex-1 justify-center px-8 pt-20 text-lg">
 		<div class="w-full max-w-7xl">
 			<slot />
 		</div>
