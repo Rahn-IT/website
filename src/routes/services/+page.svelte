@@ -30,7 +30,7 @@
 
 		<div class="p-2">
 			<p>Unser Ziel ist es, Sie und Ihr Unternehmen zu unterstützen.</p>
-			<p>Jedes Unternehmen ist anders. Wir gehen auf Ihre individuellen Bedürfnisse ein.</p>
+			<p>Dafür gehen wir auf Ihre individuellen Bedürfnisse ein.</p>
 		</div>
 
 		<div class="p-2">
