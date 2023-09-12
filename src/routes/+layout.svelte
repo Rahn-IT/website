@@ -2,6 +2,7 @@
 	import Footer from '$lib/Footer.svelte';
 	import Navbar from '$lib/Navbar.svelte';
 	import LogoStandalone from '$lib/images/logo-standalone.svelte';
+	import Mail from '$lib/info/Mail.svelte';
 	import Phone from '$lib/info/Phone.svelte';
 	import '../app.css';
 </script>
@@ -31,11 +32,14 @@
 	</main>
 	<Footer>
 		<div>
-			<LogoStandalone class="h-16 w-auto" />
-			<p>
-				Rahn IT-Systemtechnik<br />
-				<Phone />
-			</p>
+			<a href="/" class="btn btn-ghost">
+				<LogoStandalone class="h-16 w-auto" />
+			</a>
+			<div>
+				<div>Rahn IT-Systemtechnik</div>
+				<div><Phone /></div>
+				<div><Mail /></div>
+			</div>
 		</div>
 		<div>
 			<a class="link-hover link" href="/">Home</a>
