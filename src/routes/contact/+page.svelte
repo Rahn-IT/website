@@ -27,7 +27,7 @@
 			</div>
 			<div class="divider">Geschäftszeiten</div>
 			<div>
-				<table class="table table-xs w-64 p-0 text-lg">
+				<table class="table w-64 p-0 text-lg">
 					<tr>
 						<td>Mo-Do:</td>
 						<td>09:00 - 16:30</td>
