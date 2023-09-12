@@ -15,7 +15,7 @@ const config = {
 			fallback: 'index.html'
 		}),
 
-		inlineStyleThreshold: 100000
+		inlineStyleThreshold: 14000
 	}
 };
 
