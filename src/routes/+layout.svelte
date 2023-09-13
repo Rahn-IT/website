@@ -36,13 +36,12 @@
 	</main>
 	<Footer>
 		<div>
-			<a href="/" class="btn btn-ghost">
-				<LogoStandalone class="h-16 w-auto" />
+			<a href="/" class="btn btn-ghost h-24 p-2">
+				<LogoStandalone class="h-full w-auto" />
 			</a>
-			<div>
+			<div class="px-2">
 				<div>Rahn IT-Systemtechnik</div>
 				<div><Phone /></div>
-				<div><Mail /></div>
 			</div>
 		</div>
 		<div>
