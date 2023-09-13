@@ -2,7 +2,6 @@
 	import Footer from '$lib/Footer.svelte';
 	import Navbar from '$lib/Navbar.svelte';
 	import LogoStandalone from '$lib/images/logo-standalone.svelte';
-	import Mail from '$lib/info/Mail.svelte';
 	import Phone from '$lib/info/Phone.svelte';
 	import '../app.css';
 </script>
