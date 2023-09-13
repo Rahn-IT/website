@@ -7,6 +7,10 @@
 	import '../app.css';
 </script>
 
+<svelte:head>
+	<link rel="icon" href="/favicon.ico" />
+</svelte:head>
+
 <div class="app flex min-h-screen flex-col">
 	<Navbar class="navbar fixed z-50 h-20 bg-base-100 shadow dark:bg-base-200">
 		<li class="xl:hidden"><a href="/">Home</a></li>
