@@ -9,7 +9,7 @@ export default defineConfig({
 				return new URLSearchParams({
 					format: 'avif;webp',
 					as: 'picture',
-					w: '400;600;1000',
+					w: '350;550;1000',
 					quality: '90'
 				});
 			}
