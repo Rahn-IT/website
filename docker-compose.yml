@@ -1,0 +1,9 @@
+version: '3.6'
+
+services:
+  website:
+    image: git.it-woelfchen.de/rahn-it/svelte-website:master
+    labels:
+      traefik.enable: true
+      traefik.http.routers.website.rule: (Host(`www.it-rahn.de`) || Host(`it-rahn.de`))
+      traefik.http.routers.nextcloud.tls.certresolver: letsencrypt
