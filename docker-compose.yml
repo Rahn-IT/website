@@ -5,5 +5,6 @@ services:
     image: git.it-woelfchen.de/rahn-it/svelte-website:master
     labels:
       traefik.enable: true
-      traefik.http.routers.website.rule: (Host(`www.it-rahn.de`) || Host(`it-rahn.de`))
-      traefik.http.routers.nextcloud.tls.certresolver: letsencrypt
+      traefik.http.routers.website.rule: Host(`it-rahn.de`) || (Host(`www.it-rahn.de`))
+      traefik.http.routers.website.tls.certresolver: letsencrypt
+      traefik.http.services.website.loadbalancer.server.port: 80
