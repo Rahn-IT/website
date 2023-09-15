@@ -12,7 +12,7 @@
 		<figure class="absolute h-full w-full">
 			<Img class="h-full w-full object-cover" src={image} alt={title} {loading} />
 		</figure>
-		<div class="card-body h-fit">
+		<div class="card-body h-fit dark:!text-neutral-200">
 			<h2 class="card-title text-2xl">{title}</h2>
 			<slot />
 		</div>

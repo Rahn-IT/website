@@ -14,7 +14,7 @@
 <div class="py-10">
 	<Service title="Pragmatische Arbeitsweise" image={Gears}>
 		<p class="p-2">
-			In der IT führen oftmals viele Wege zum Ziel. Selten gibt es "die Eine Lösung".
+			In der IT führen oftmals viele Wege zum Ziel. Selten gibt es "Die eine Lösung".
 		</p>
 
 		<p class="p-2">
@@ -34,12 +34,12 @@
 		<p class="p-2">
 			Eine erfolgreiche Zusammenarbeit braucht Vertrauen.<br />
 			Aus diesem Grund setzen wir bei unserer Arbeit auf Ehrlichkeit und Offenheit.<br />
-			Das selbe erwarten wir von unseren Kunden, denn nur so können wir uns verbessern.
+			Die selbe Ehrlichkeit erwarten wir auch von unseren Kunden.
 		</p>
 		<p class="p-2">
 			Wir kennen nicht nur die Vorteile, sondern auch die Nachteile unserer Lösungen.<br />
-			Auch unsere Kunden haben ein Recht zu wissen, wo die Schwachstellen Ihrer IT liegen.<br />
-			Denn nur so ist eine informierte Entscheidung möglich.
+			Auch unsere Kunden haben ein Recht zu wissen, wo die Schwachstellen Ihrer IT liegen,<br />
+			denn nur so ist eine informierte Entscheidung möglich.
 		</p>
 		<p class="p-2">
 			Der Erfolg unserer Kunden ist auch unser Erfolg.<br />
@@ -73,8 +73,8 @@
 		</p>
 		<p class="p-2">
 			Ein Beispiel hierfür ist der Diebstahl eines kryptographischen Signing-Schlüssels von
-			Microsoft. Bei dem genannten Vorfall erlangte eine Hackergruppe einen vollumfassenden Zugriff
-			auf die Daten von Microsofts Cloud-Kunden.
+			Microsoft. Bei dem genannten Vorfall erlangte eine Hackergruppe einen mutmaßlich
+			weitreichenden Zugriff auf die Daten von Microsofts Cloud-Kunden.
 		</p>
 
 		<div class="p-2">

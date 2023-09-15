@@ -110,15 +110,15 @@
 		</div>
 
 		<div class="p-2">
-			<p>Die Sicherheit Ihres unternehmens ist Sache aller beteiligten.</p>
-			<p>Wir beantworten Fragen und Schulen Sie und Ihr Personal.</p>
+			<p>Die Sicherheit Ihres Unternehmens ist Sache aller beteiligten.</p>
+			<p>Wir beantworten Fragen und schulen Sie und Ihr Personal.</p>
 		</div>
 	</Service>
 
 	<Service title="Telefonie" image={Telefonie}>
 		<div class="p-2">
 			<p>
-				Ein Erfolgreiches Unternehmen braucht eine vielseitige und zuverlässige Telefonie-Lösung.
+				Ein erfolgreiches Unternehmen braucht eine vielseitige und zuverlässige Telefonie-Lösung.
 			</p>
 			<p>Wir planen und installieren Ihre Telefonanlage und Ihre Telefoniegeräte.</p>
 		</div>
@@ -137,7 +137,7 @@
 
 	<Service title="Videoüberwachung" image={Videoüberwachung}>
 		<div class="p-2">
-			<p>Nicht nur die digitale Sicherheit ist relavant.</p>
+			<p>Nicht nur die digitale Sicherheit ist relevant.</p>
 			<p>Behalten Sie von überall aus eine wachsamen Auge auf Ihre Geschäftgebäude.</p>
 		</div>
 
@@ -154,13 +154,13 @@
 
 		<div class="p-2">
 			<p>Wir entwickeln individuelle Software-Lösungen ganz nach Ihren Bedürfnissen.</p>
-			<p>Dabei setzen wir auf eine Balance aus erprobten Techniken und modernen Standarts.</p>
+			<p>Dabei setzen wir auf eine Balance aus erprobten Techniken und modernen Standards.</p>
 		</div>
 
 		<div class="p-2">
-			<p>Sind Sie mit Ihrem anliegen nicht alleine?</p>
+			<p>Sind Sie mit Ihrem Anliegen nicht alleine?</p>
 			<p>
-				Vereinen Sie Ihre Kräfte mit anderen und finanzieren Sie gemeinsam eine Open-Source Lösung.
+				Vereinen Sie Ihre Kräfte mit Anderen und finanzieren Sie gemeinsam eine Open-Source Lösung.
 			</p>
 		</div>
 	</Service>

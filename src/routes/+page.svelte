@@ -27,32 +27,15 @@
 
 <div class="py-4">
 	<h2 class="pt-8 text-3xl">Unser Einsatzgebiet</h2>
-	<p class="py-4">
-		Per Fernwartung sind wir gerne deutschlandweit für Sie da. Falls Sie eine persönliche Betreuung
-		wünschen oder benötigen können wir Ihnen in folgenden Ortschaften und deren Umgebung behilflich
-		sein:
-	</p>
+	<p class="py-2">Per Fernwartung sind wir gerne deutschlandweit für Sie da.</p>
+	<p class="py-2">In folgenden Gebieten sind wir gerne persönlich für Sie da:</p>
 
 	<ul class="list-disc px-8">
-		<li>Altötting</li>
-		<li>Ampfing</li>
-		<li>Burghausen</li>
-		<li>Dorfen</li>
-		<li>Eggenfelden</li>
-		<li>Garching an der Alz</li>
-		<li>Haag</li>
-		<li>Marktl</li>
-		<li>Mühldorf</li>
-		<li>Neumarkt-Sankt Veit</li>
-		<li>Obing</li>
-		<li>Rosenheim</li>
-		<li>Tittmoning</li>
-		<li>Traunreut</li>
-		<li>Traunstein</li>
-		<li>Trostberg</li>
-		<li>Vilsbiburg</li>
-		<li>Waldkraiburg</li>
-		<li>Wasserburg</li>
+		<li>Landkreis Altötting</li>
+		<li>Landkreis Mühldorf</li>
+		<li>Landkreis Rosenheim</li>
+		<li>Landkreis Rottal-Inn</li>
+		<li>Landkreis Traunstein</li>
 	</ul>
 </div>
 
