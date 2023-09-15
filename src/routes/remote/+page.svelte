@@ -24,7 +24,7 @@
 	<p class="py-2">
 		Dieses Installationsprogramm richtet eine dauerhafte Fernwartung ein.
 		<br />
-		Dadurch können wir uns auch ohneIhr Zutun um Ihre Geräte kümmern.
+		Dadurch können wir uns auch ohne Ihr Zutun um Ihre Geräte kümmern.
 	</p>
 	<a class="btn text-xl" href="https://get.teamviewer.com/q3zt6wn" target="_blank">Download</a>
 </div>
