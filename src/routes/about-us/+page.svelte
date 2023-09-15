@@ -77,21 +77,24 @@
 			auf die Daten von Microsofts Cloud-Kunden.
 		</p>
 
-		<p class="p-2">
-			<a
-				class="link"
-				href="https://www.heise.de/news/Gestohlener-Cloud-Master-Key-Microsoft-schweigt-so-fragen-Sie-selber-9229395.html"
-			>
-				Gestohlener Cloud-Master-Key: Microsoft schweigt – so fragen Sie selbst
-			</a>
-			<br />
-			<a
-				class="link"
-				href="https://www.heise.de/news/Neue-Erkenntnisse-Microsofts-Cloud-Luecken-viel-groesser-als-angenommen-9224640.html"
-			>
-				Microsofts gestohlener Schlüssel mächtiger als vermutet
-			</a>
-		</p>
+		<div class="p-2">
+			<div>
+				<a
+					class="link"
+					href="https://www.heise.de/news/Gestohlener-Cloud-Master-Key-Microsoft-schweigt-so-fragen-Sie-selber-9229395.html"
+				>
+					Gestohlener Cloud-Master-Key: Microsoft schweigt – so fragen Sie selbst
+				</a>
+			</div>
+			<div>
+				<a
+					class="link"
+					href="https://www.heise.de/news/Neue-Erkenntnisse-Microsofts-Cloud-Luecken-viel-groesser-als-angenommen-9224640.html"
+				>
+					Microsofts gestohlener Schlüssel mächtiger als vermutet
+				</a>
+			</div>
+		</div>
 		<h3 class="font-bold">Sollten wir also auf Cloud verzichten?</h3>
 		<p class="p-2">
 			So schwarz-weiß ist es natürlich nicht. Einige Cloud-Dienste bieten tolle Vorteile.<br />
