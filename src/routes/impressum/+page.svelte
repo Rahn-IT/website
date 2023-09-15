@@ -41,14 +41,18 @@
 			<tr>
 				<td>Erstellt mit</td>
 				<td>
-					<div>
-						<a class="link-hover link" href="https://kit.svelte.dev" target="_blank">SvelteKit</a>
+					<div class="py-2">
+						<a class="link-hover link py-2" href="https://kit.svelte.dev" target="_blank"
+							>SvelteKit</a
+						>
 					</div>
-					<div>
-						<a class="link-hover link" href="https://tailwindcss.com" target="_blank">Tailwind</a>
+					<div class="py-2">
+						<a class="link-hover link py-2" href="https://tailwindcss.com" target="_blank"
+							>Tailwind</a
+						>
 					</div>
-					<div>
-						<a class="link-hover link" href="https://daisyui.com/" target="_blank">daisyUI</a>
+					<div class="py-2">
+						<a class="link-hover link py-2" href="https://daisyui.com/" target="_blank">daisyUI</a>
 					</div>
 				</td>
 			</tr>
