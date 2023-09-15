@@ -9,11 +9,14 @@
 		<div class="font-bold">{name}</div>
 		<div><i>{priceInfo}</i></div>
 	</div>
-	<nobr class="flex w-24 items-center justify-end px-8">
-		{(netto * 1.19).toLocaleString(
-			undefined, // leave undefined to use the visitor's browser
-			{ minimumFractionDigits: 2, maximumFractionDigits: 2 }
-		)} €
-	</nobr>
+	<div>
+		<nobr class="flex w-24 items-center justify-end gap-0 px-8">
+			{(netto * 1.19).toLocaleString(
+				undefined, // leave undefined to use the visitor's browser
+				{ minimumFractionDigits: 2, maximumFractionDigits: 2 }
+			)} €
+		</nobr>
+		<span class="text-sm">inkl. MwSt.</span>
+	</div>
 	<div class="col-span-2 p-2"><slot /></div>
 </div>
