@@ -48,7 +48,7 @@
 		</p>
 	</Service>
 
-	<Service title="Verantwortungsvoller Cloud-Umgang" image={Cloud}>
+	<Service title="Verantwortungsvoller Cloud-Umgang" image={Cloud} loading="eager">
 		<p class="p-2">
 			Große Firmen wie Microsoft oder Google werben gerne mit Sätzen wie "Die Cloud ist die Zukunft"
 			oder "Ihre Daten sind in der Cloud sicher, geschützt und immer zugänglich". Aber was ist denn
