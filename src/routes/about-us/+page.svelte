@@ -78,17 +78,17 @@
 		</p>
 
 		<div class="p-2">
-			<div>
+			<div class="py-2">
 				<a
-					class="link"
+					class="link py-2"
 					href="https://www.heise.de/news/Gestohlener-Cloud-Master-Key-Microsoft-schweigt-so-fragen-Sie-selber-9229395.html"
 				>
 					Gestohlener Cloud-Master-Key: Microsoft schweigt – so fragen Sie selbst
 				</a>
 			</div>
-			<div>
+			<div class="py-2">
 				<a
-					class="link"
+					class="link py-2"
 					href="https://www.heise.de/news/Neue-Erkenntnisse-Microsofts-Cloud-Luecken-viel-groesser-als-angenommen-9224640.html"
 				>
 					Microsofts gestohlener Schlüssel mächtiger als vermutet
