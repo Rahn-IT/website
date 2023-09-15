@@ -27,7 +27,7 @@
 	<div class="py-8">
 		<div>Unsere Preise für Geräte richten sich nach unseren Aktuellen Einkaufspreisen.</div>
 		<div>Für ein Angebot Rufen Sie uns an oder schreiben Sie uns eine E-Mail.</div>
-		<div class="text-xl"><Phone /></div>
-		<div class="text-xl"><Mail /></div>
+		<div class="my-2"><Phone class="link-hover link py-2" /></div>
+		<div class="my-2"><Mail class="link-hover link py-2" /></div>
 	</div>
 </div>
