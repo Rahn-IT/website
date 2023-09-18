@@ -7,7 +7,7 @@
 
 <svelte:head>
 	<title>Unsere Prinzipen</title>
-	<meta name="description" content="Erfahren Sie, was uns antreibt." />
+	<meta name="description" content="Erfahren Sie, was uns wichtig ist." />
 </svelte:head>
 
 <h1 class="pt-14 text-3xl">Unsere Prinzipien</h1>

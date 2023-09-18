@@ -8,7 +8,7 @@
 
 <svelte:head>
 	<title>Impressum</title>
-	<meta name="description" content="Hier finden Sie die rechtlich nötigen angaben." />
+	<meta name="description" content="Hier finden Sie die rechtlich nötigen Angaben." />
 </svelte:head>
 <div class="py-4">
 	<h1 class="py-8 text-center text-4xl">Impressum</h1>
