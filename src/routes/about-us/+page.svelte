@@ -83,7 +83,7 @@
 					class="link py-2"
 					href="https://www.heise.de/news/Gestohlener-Cloud-Master-Key-Microsoft-schweigt-so-fragen-Sie-selber-9229395.html"
 				>
-					Gestohlener Cloud-Master-Key: Microsoft schweigt – so fragen Sie selbst
+					Heise: Gestohlener Cloud-Master-Key: Microsoft schweigt – so fragen Sie selbst
 				</a>
 			</div>
 			<div class="py-2">
@@ -91,7 +91,7 @@
 					class="link py-2"
 					href="https://www.heise.de/news/Neue-Erkenntnisse-Microsofts-Cloud-Luecken-viel-groesser-als-angenommen-9224640.html"
 				>
-					Microsofts gestohlener Schlüssel mächtiger als vermutet
+					Heise: Microsofts gestohlener Schlüssel mächtiger als vermutet
 				</a>
 			</div>
 		</div>

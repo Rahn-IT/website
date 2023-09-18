@@ -39,7 +39,7 @@
 			<p class="py-2">Mit Heinz als Vater bin ich von klein auf mit Computern groß geworden.</p>
 			<p class="py-2">Als ich 7 Jahre alt war bekam ich meinen ersten eigenen Computer.</p>
 			<p class="py-2">
-				In meiner Jugend kam mein Interesse für Programmiernug und die Funktionsweise moderner
+				In meiner Jugend kam mein Interesse für Programmierung und die Funktionsweise moderner
 				Computer auf. Ich beschäftigte mich mit logischen Schaltkreisen und simpler
 				Rechnerarchitektur.
 			</p>

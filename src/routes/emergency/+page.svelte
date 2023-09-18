@@ -1,4 +1,5 @@
 <script>
+	import BusninessHours from '$lib/BusninessHours.svelte';
 	import Phone from '$lib/info/Phone.svelte';
 </script>
 
@@ -23,7 +24,8 @@
 		Geschäftszeiten.
 	</p>
 	<p class="py-2">
-		<b>Notfalldienst: 24 Stunden, auch an Sonn- und Feiertagen</b>
+		<BusninessHours />
+		<b>Auch an Sonn- und Feiertagen</b>
 	</p>
 </div>
 <div>

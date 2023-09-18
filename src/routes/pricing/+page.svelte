@@ -15,12 +15,12 @@
 	<div>
 		<Price name="Anfahrt pro KM" netto={0.6} />
 		<Price name="Dienstleistung pro Stunde" priceInfo="Gültig bis 31.12.2023" netto={80}>
-			<div>Bei einer Anfahrt <b>unter 25 KM</b> werden mindestens 0.25 Stunden berechnet.</div>
-			<div>Bei einer Anfahrt <b>ab 25 KM</b> werden mindestens 0.5 Stunden berechnet.</div>
+			<div>Bei einer Anfahrt <b>unter 25 km</b> werden mindestens 0.25 Stunden berechnet.</div>
+			<div>Bei einer Anfahrt <b>ab 25 km</b> werden mindestens 0.5 Stunden berechnet.</div>
 		</Price>
 		<Price name="Dienstleistung pro Stunde" priceInfo="Gültig ab 01.01.2024" netto={90}>
-			<div>Bei einer Anfahrt <b>unter 25 KM</b> werden mindestens 0.25 Stunden berechnet.</div>
-			<div>Bei einer Anfahrt <b>ab 25 KM</b> werden mindestens 0.5 Stunden berechnet.</div>
+			<div>Bei einer Anfahrt <b>unter 25 km</b> werden mindestens 0.25 Stunden berechnet.</div>
+			<div>Bei einer Anfahrt <b>ab 25 km</b> werden mindestens 0.5 Stunden berechnet.</div>
 		</Price>
 	</div>
 

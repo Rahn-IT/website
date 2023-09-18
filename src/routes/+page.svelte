@@ -19,7 +19,7 @@
 		Profitieren auch Sie von unserem umfangreiches Wissen, und unserer langjährige Erfahrung.
 	</p>
 	<p class="py-2">
-		Unser Kundenstamm ist dabei so Vielseitig wie unsere Leistungen,
+		Unser Kundenstamm ist dabei so vielseitig wie unsere Leistungen,
 		<br />
 		In welcher Branche Sie auch tätig sind, zögern Sie nicht uns zu kontaktieren.
 	</p>

@@ -53,7 +53,7 @@
 		</div>
 
 		<div class="p-2">
-			<p>Wir übernehmen die Wartung und Überwachnung Ihrer Server, Arbeitsplätze und Software.</p>
+			<p>Wir übernehmen die Wartung und Überwachung Ihrer Server, Arbeitsplätze und Software.</p>
 			<p>Neu, alt, Windows oder Linux - unsere Kompetenzen sind weit gefächert.</p>
 		</div>
 	</Service>
@@ -78,7 +78,7 @@
 
 	<Service title="Backup" image={Festplatte}>
 		<div class="p-2">
-			<p><i>Auf das Beste hoffen, auf das schlimmste vorbereitet sein</i></p>
+			<p><i>Auf das Beste hoffen, auf das Schlimmste vorbereitet sein</i></p>
 		</div>
 		<div class="p-2">
 			<p>
@@ -110,7 +110,7 @@
 		</div>
 
 		<div class="p-2">
-			<p>Die Sicherheit Ihres Unternehmens ist Sache aller beteiligten.</p>
+			<p>Die Sicherheit Ihres Unternehmens ist Sache aller Beteiligten.</p>
 			<p>Wir beantworten Fragen und schulen Sie und Ihr Personal.</p>
 		</div>
 	</Service>
@@ -158,7 +158,7 @@
 		</div>
 
 		<div class="p-2">
-			<p>Sind Sie mit Ihrem Anliegen nicht alleine?</p>
+			<p>Sie sind mit Ihrem Anliegen nicht alleine?</p>
 			<p>
 				Vereinen Sie Ihre Kräfte mit Anderen und finanzieren Sie gemeinsam eine Open-Source Lösung.
 			</p>
