@@ -13,7 +13,7 @@
 	<h2 class="pt-8 text-2xl">Schnelle Fernwartung</h2>
 
 	<p class="py-2">
-		Diese Software erlaubt es uns, Ihnen zu helfen, sobald sie die Software starten.
+		Diese Software erlaubt es uns, Ihnen zu helfen, sobald Sie die Software starten.
 	</p>
 	<a class="btn text-xl" href="https://get.teamviewer.com/57y9u6n" target="_blank">Download</a>
 </div>

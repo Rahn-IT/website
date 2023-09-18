@@ -1,4 +1,5 @@
 <script>
+	import BusninessHours from '$lib/BusninessHours.svelte';
 	import LogoStandalone from '$lib/images/logo-standalone.svelte';
 	import Address from '$lib/info/Address.svelte';
 	import Mail from '$lib/info/Mail.svelte';
@@ -26,19 +27,7 @@
 				<Phone />
 			</div>
 			<div class="divider">Geschäftszeiten</div>
-			<div>
-				<table class="table w-64 p-0 text-lg">
-					<tr>
-						<td>Mo-Do:</td>
-						<td>09:00 - 16:30</td>
-					</tr>
-					<tr>
-						<td>Fr:</td>
-						<td>09:00 - 12:00</td>
-					</tr>
-				</table>
-				<b>24 Stunden Notdienst</b>
-			</div>
+			<BusninessHours />
 		</div>
 		<div class="card-actions justify-center md:justify-end">
 			<VCard class="btn btn-neutral text-lg">Zu Kontakten hinzufügen</VCard>
