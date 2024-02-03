@@ -13,12 +13,14 @@
 	export let loading: 'lazy' | 'eager' = 'lazy';
 
 	let classes = '';
+
 	export { classes as class };
 </script>
 
 <picture class={classes}>
 	{#each Object.entries(src.sources) as [format, images]}
-		<source srcset={images.map((i) => `${i.src} ${i.w}w`).join(', ')} type={'image/' + format} />
+	    <source srcset={images} type="image/{format}" />
+		<!-- <source srcset={images.map((i) => `${i.src} ${i.w}w`).join(', ')} type={'image/' + format} /> -->
 	{/each}
 
 	<img
