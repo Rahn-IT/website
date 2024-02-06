@@ -10,7 +10,15 @@
 	<Navbar class="navbar fixed z-50 h-20 bg-base-100 shadow dark:bg-base-200">
 		<li class="xl:hidden"><a href="/">Home</a></li>
 		<li><a href="/emergency">Notdienst</a></li>
-		<li><a href="/services">Leistungen</a></li>
+		<li>
+			<details class="z-20">
+				<summary>Leistungen</summary>
+				<ul class="xl:top-10 xl:shadow-2xl xl:drop-shadow">
+					<li><a href="/services">Dienste</a></li>
+					<li><a href="/services/email">E-Mail</a></li>
+				</ul>
+			</details>
+		</li>
 		<li><a href="/pricing">Preise</a></li>
 		<li><a href="/remote">Fernwartung</a></li>
 		<li>
@@ -42,13 +50,14 @@
 		<div>
 			<a class="link-hover link" href="/">Home</a>
 			<a class="link-hover link" href="/emergency">Notfalldienst</a>
-			<a class="link-hover link" href="/services">Leistungen</a>
+			<a class="link-hover link" href="/services">Dienste</a>
+			<a class="link-hover link" href="/services/email">E-Mail</a>
 			<a class="link-hover link" href="/pricing">Preise</a>
 			<a class="link-hover link" href="/remote">Fernwartung</a>
-			<a class="link-hover link" href="/about-us">Unsere Prinzipen</a>
-			<a class="link-hover link" href="/about-us/people">Das Team</a>
 		</div>
 		<div>
+			<a class="link-hover link" href="/about-us">Unsere Prinzipen</a>
+			<a class="link-hover link" href="/about-us/people">Das Team</a>
 			<a class="link-hover link" href="/contact">Kontakt</a>
 			<a class="link-hover link" href="/impressum">Impressum</a>
 		</div>
