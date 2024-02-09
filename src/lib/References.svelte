@@ -12,6 +12,7 @@
 	import Mauerberger from '$lib/images/refs/mauerberger.png';
 	import SolarbauChiemgau from '$lib/images/refs/solarbau-chiemgau.png';
 	import Zimmermann from '$lib/images/refs/zimmermann.png';
+	import Brand from '$lib/images/refs/brand.jpg'
 	import IconLeft from './images/IconLeft.svelte';
 	import IconRight from './images/IconRight.svelte';
 
@@ -109,6 +110,12 @@
 			name="Zimmermann Transporte"
 			href="https://www.zimmermann-transporte.com/"
 			image={Zimmermann}
+		/>
+		<Company
+			class="bg-neutral-50 p-8"
+			name="Schlosserei-Brand"
+			href="https://www.schlosserei-brand.de/"
+			image={Brand}
 		/>
 	</div>
 	<button class="btn btn-ghost h-full w-full p-0" on:click={() => scroll('right')}
