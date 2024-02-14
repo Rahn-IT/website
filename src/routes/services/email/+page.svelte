@@ -68,67 +68,73 @@
 
 	<h2 class="pt-8 text-3xl">Geht das auch auf Deutsch?</h2>
 	<p class="pt-2">
-		Wer nicht gerade inen Mail-Server betreibt mag sich wundern, was denn die ganzen Abkürzungen
+		Wer nicht gerade einen Mail-Server betreibt mag sich wundern, was denn die ganzen Abkürzungen
 		bedeuten sollen.
 	</p>
 	<p class="pb-2">
-		Damit Sie nicht im Dunkeln tappen, haben wir hier ein paar kleine Erklärungen vorbereitet.
+		Damit Sie nicht im Dunkeln tappen, haben wir die ausgeschriebene Abkürzungen noch einmal
+		Sinngemäß übersetzt.
 	</p>
 
 	<div class="p-4">
 		<h3 class="text-2xl font-bold">SMTP - Einfaches Post-Transport-Protokoll</h3>
 		<p class="py-2">
+			Wie der Name bereits ahnen lässt, wird dieses Protokoll verwendet um E-Mails zu versenden.
+			<br />
+			Und das ist auch schon alles was SMTP kann - dadurch bleibt es erstaunlich simpel.
+		</p>
+		<p class="py-2">
 			SMTP ist ein altes Protokoll. Die erste Version wurde 1982 veröffentlicht und ist damit etwas
 			so alt wie das Internet.
 		</p>
-		<p>Damals lößte SMTP das ältere MTP ab, welches noch zu Zeiten des Arpanet entwickelt wurde.</p>
 		<p class="py-2">
-			Damals dachte allerdings noch niemand an die heutige Flut an Hackern und bösartigen
-			Internetnutzern.
+			Damals blickte man voller Zuversicht und Enthusiasmus in die Zukunft.
+			<br />
+			Niemand kam auf die Idee sich anzumaßen, einen falschen Absender anzugeben.
 		</p>
 		<p class="py-2">
-			Es wurde also übersehen einen wirksamen Schutz gegen gefälschte E-Mails zu spezifizieren.
+			SMTP bietet von sich aus also keine Möglichkeit zu prüfen, ob der Absender denn korrekt ist.
 			<br />
-			SMTP erlaubt es E-Mails unter einer beliebigen Adresse E-Mails zu verschicken.
-			<br />
-			Genauso können Sie einen beliebigen Absender af Ihren Brief schreiben und diesen einwerfen.
-			<br />
-			Und wie im Nachhinein bekannt, tauchten die erstem E-Mails mit gefälschten Absendern auf. Das konnte
-			natürlich nicht so bleiben.
+			Genauso können Sie einen beliebigen Absender auf einen Brief schreiben und diesen einwerfen.
 		</p>
+		<p class="py-2"></p>
 	</div>
 
 	<div class="p-4">
-		<h3 class="text-2xl font-bold">SPF - Protokoll zur Absender-Prüfung</h3>
+		<h3 class="text-2xl font-bold">SPF - Rahnmenwerk zur Absender-Prüfung</h3>
+		<p class="py-2">Um gegen gefälschte Absender vorzugehen wurde 2006 SPF spezifiziert.</p>
 		<p class="py-2">
-			2006 wurde aus diesem Grund SPF spezifiziert.
-			<br />
 			SPF ist eine simple, aber effektive Maßnahme um gefälschten E-Mails zu vermeiden.
 			<br />
-			Als Besitzer einer Internet-Dömäne können Sie angeben, welche Server berechtigt sind unter Ihrem
+			Als Besitzer einer Internet-Dömäne können Sie angeben, welche Server berechtigt sind, unter Ihrem
 			Namen E-Mails zu versenden.
-			<br />
-			Wenn die Mails ankommen wird lediglich geprüft, ob der Absender von Ihnen berechtigt wurde, Ihre
-			E-Mails zuzustellen.
 		</p>
-		<p>Sie kennen das Prinzip zum Beispiel schon von der Bank -</p>
+		<p class="py-2">
+			Wenn Ihre E-Mails beim Empfänger ankommen, gleicht dieser den sendenden Server mit der von
+			Ihnen veröffentlichten Liste ab.
+		</p>
+		<p>
+			Sie kennen das Prinzip zum Beispiel schon von der Bank - dort geben Sie auch an, wer denn auf
+			Ihr Konto zugreifen darf.
+		</p>
 	</div>
 	<div class="p-4">
 		<h3 class="text-2xl font-bold">DKIM - Von der Domäne Signierte E-Mails</h3>
 		<p class="py-2">
-			SPF ist ein wichtiger Schritt, aber leider nicht immer effektiv oder Sinnvoll.
-			<br />
+			SPF ist ein wichtiger Schritt, kann aber nicht immer verwendet werden und ist zuweilen leicht
+			zu überlisten.
+		</p>
+		<p class="py-2">
 			Mit DKIM werden ausgehende E-Mails digital signiert. Eine solche Signatur kann praktisch nicht
 			gefälscht werden.
 			<br />
 			So kann verhindert werden, dass jemand unserem eigentlich vertrauenswürdigen Briefträger einen
 			gefälschten Brief unterjubelt.
-			<br />
-			Auch wenn SPF nicht genutzt werden kann, ist DKIM eine hilfreiche Maßnahme.
 		</p>
+		<p class="py-2">Auch wenn SPF nicht genutzt werden kann, ist DKIM eine hilfreiche Maßnahme.</p>
 	</div>
 	<div class="p-4">
 		<h3 class="text-2xl font-bold">DMARC - Berichterstattung und Konformität</h3>
-		<p class="py-2"></p>
+		<p class="py-2">DMARC ist die letzte Stufe moderner E-Mail-Absicherung.</p>
 	</div>
 </div>
