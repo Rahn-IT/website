@@ -5,7 +5,7 @@ on:
       - master
 
 jobs:
-  lint-and-check:
+  lint and check:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
@@ -32,7 +32,7 @@ jobs:
         with:
           driver-opts: network=host
       - name: Build and push
-        uses: docker/build-push-action@v4
+        uses: docker/build-push-action@v5
         env:
           ACTIONS_RUNTIME_TOKEN: ''
         with:
