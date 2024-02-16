@@ -19,7 +19,7 @@
 
 <picture class={classes}>
 	{#each Object.entries(src.sources) as [format, images]}
-	    <source srcset={images} type="image/{format}" />
+		<source srcset={images} type="image/{format}" />
 	{/each}
 
 	<img

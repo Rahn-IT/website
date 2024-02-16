@@ -25,7 +25,7 @@
 	<Service title="Rahn-IT Mail-Gateway" image={Email}>
 		<p class="py-2">Unser E-Mail-Gateway ist die perfekte Ergänzung für Ihren Mailserver.</p>
 
-		<h3 class="font-bold pt-4">Spam-Filter und Virenscanner</h3>
+		<h3 class="pt-4 font-bold">Spam-Filter und Virenscanner</h3>
 		<p>
 			Eingehende Mails werden von unserem Leistungsstarken Spam-Filter unter die Lupe genommen.
 			<br />
@@ -33,7 +33,7 @@
 			und Betrugsversuchen.
 		</p>
 
-		<h3 class="font-bold pt-4">E-Mails wie aus dem Lehrbuch</h3>
+		<h3 class="pt-4 font-bold">E-Mails wie aus dem Lehrbuch</h3>
 		<p>
 			Unser System sorgt dafür, dass Ihre E-Mails den neuesten Standarts entsprechen.
 			<br />
@@ -42,7 +42,7 @@
 		</p>
 		<p>So könne Sie sichergehen, dass Ihre E-Mails nie wieder grundlos im Spam-Ordner landen.</p>
 
-		<h3 class="font-bold pt-4">Immer einen Schrit voraus</h3>
+		<h3 class="pt-4 font-bold">Immer einen Schrit voraus</h3>
 		<p>Dank fortlaufender Überwachung geht keine E-Mail mehr spurlos verloren.</p>
 		<p>
 			Wir behalten ein wachsames Auge auf Ihren Mailverkehr, passen den Spam-Filter laufend an und
