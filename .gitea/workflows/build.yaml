@@ -13,6 +13,6 @@ jobs:
       - name: prepare node
         uses: actions/setup-node@v3
         with:
-          node-version: lts
+          node-version: 20
       - name: lint
         run: npm run lint
