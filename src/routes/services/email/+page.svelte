@@ -136,5 +136,18 @@
 	<div class="p-4">
 		<h3 class="text-2xl font-bold">DMARC - Berichterstattung und Konformität</h3>
 		<p class="py-2">DMARC ist die letzte Stufe moderner E-Mail-Absicherung.</p>
+		<p class="py-2">
+			Zum Einen kann der Domänenbesitzer festlegen, was mit Nachrichten passiert, bei denen die
+			Verifizierung teilweise oder Vollständig fehlgeschlagen ist.
+		</p>
+		<p class="py-2">
+			Zum Anderen senden die Empfänger der E-Mails regelmäßige Berichte an den Besitzer der
+			Absender-Domäne.
+			<br />
+			Dadurch kann schnell festgestellt werden, wenn konfigurationsfehler vorliegen.
+			<br />
+			Zusätzlich werden auch Mails gemeldet, die gefälscht wurden. Dadurch kann in einigen Fällen gegen
+			die Fälscher vorgegangen werden.
+		</p>
 	</div>
 </div>
