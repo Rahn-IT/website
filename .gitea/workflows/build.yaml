@@ -10,6 +10,9 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: prepare node
+        uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: lts
+      - name: lint
+        run: npm run lint
