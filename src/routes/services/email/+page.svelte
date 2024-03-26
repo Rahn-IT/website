@@ -3,6 +3,7 @@
 
 	import Email from '$lib/images/services/email.png';
 	import Dmarc from '$lib/images/services/dmarc.jpg';
+	import Phone from '$lib/info/Phone.svelte';
 </script>
 
 <svelte:head>
@@ -27,9 +28,9 @@
 
 		<h3 class="pt-4 font-bold">Spam-Filter und Virenscanner</h3>
 		<p>
-			Eingehende Mails werden von unserem Leistungsstarken Spam-Filter unter die Lupe genommen.
+			Eingehende Mails werden von unserem leistungsstarken Spam-Filter unter die Lupe genommen.
 			<br />
-			Dieser sortiert nicht nur große Mengen an ungewoller Werbung aus, sondern schützt auch vor Viren
+			Dieser sortiert nicht nur große Mengen an ungewollter Werbung aus, sondern schützt auch vor Viren
 			und Betrugsversuchen.
 		</p>
 
@@ -40,7 +41,7 @@
 			Jede E-Mail wird mittels dem DKIM-Verfahren digital signiert und entspricht den nötigen SPF- und
 			DMARC-Vorgaben.
 		</p>
-		<p>So könne Sie sichergehen, dass Ihre E-Mails nie wieder grundlos im Spam-Ordner landen.</p>
+		<p>So können Sie sichergehen, dass Ihre E-Mails nie wieder grundlos im Spam-Ordner landen.</p>
 
 		<h3 class="pt-4 font-bold">Immer einen Schrit voraus</h3>
 		<p>Dank fortlaufender Überwachung geht keine E-Mail mehr spurlos verloren.</p>
@@ -137,11 +138,11 @@
 		<h3 class="text-2xl font-bold">DMARC - Berichterstattung und Konformität</h3>
 		<p class="py-2">DMARC ist die letzte Stufe moderner E-Mail-Absicherung.</p>
 		<p class="py-2">
-			Zum Einen kann der Domänenbesitzer festlegen, was mit Nachrichten passiert, bei denen die
+			Zum einen kann der Domänenbesitzer festlegen, was mit Nachrichten passiert, bei denen die
 			Verifizierung teilweise oder Vollständig fehlgeschlagen ist.
 		</p>
 		<p class="py-2">
-			Zum Anderen senden die Empfänger der E-Mails regelmäßige Berichte an den Besitzer der
+			Zum anderen senden die Empfänger der E-Mails regelmäßige Berichte an den Besitzer der
 			Absender-Domäne.
 			<br />
 			Dadurch kann schnell festgestellt werden, wenn konfigurationsfehler vorliegen.
@@ -150,4 +151,14 @@
 			die Fälscher vorgegangen werden.
 		</p>
 	</div>
+	<h2 class="pt-8 text-3xl">Noch Fragen?</h2>
+	<p class="pt-2">
+		Sind Sie sich unsicher, ob Sie einen unserer Dienste benötigen oder haben Sie weitere Fragen
+		bezüglich des Mail-Verkehrs?
+	</p>
+	<p class="pb-2">
+		Rufen Sie uns an:
+		<br />
+		<Phone />
+	</p>
 </div>
