@@ -102,7 +102,7 @@
 	</div>
 
 	<div class="p-4">
-		<h3 class="text-2xl font-bold">SPF - Rahnmenwerk zur Absender-Prüfung</h3>
+		<h3 class="text-2xl font-bold">SPF - Rahmenwerk zur Absender-Prüfung</h3>
 		<p class="py-2">Um gegen gefälschte Absender vorzugehen wurde 2006 SPF spezifiziert.</p>
 		<p class="py-2">
 			SPF ist eine simple, aber effektive Maßnahme um gefälschten E-Mails zu vermeiden.
@@ -120,7 +120,7 @@
 		</p>
 	</div>
 	<div class="p-4">
-		<h3 class="text-2xl font-bold">DKIM - Von der Domäne Signierte E-Mails</h3>
+		<h3 class="text-2xl font-bold">DKIM - Von der Domäne signierte E-Mails</h3>
 		<p class="py-2">
 			SPF ist ein wichtiger Schritt, kann aber nicht immer verwendet werden und ist zuweilen leicht
 			zu überlisten.
@@ -138,14 +138,14 @@
 		<h3 class="text-2xl font-bold">DMARC - Berichterstattung und Konformität</h3>
 		<p class="py-2">DMARC ist die letzte Stufe moderner E-Mail-Absicherung.</p>
 		<p class="py-2">
-			Zum einen kann der Domänenbesitzer festlegen, was mit Nachrichten passiert, bei denen die
-			Verifizierung teilweise oder Vollständig fehlgeschlagen ist.
+			Zum einen kann der Domänenbesitzer festlegen, was mit Nachrichten passiert, bei welchen die
+			Verifizierung teilweise oder vollständig fehlgeschlagen ist.
 		</p>
 		<p class="py-2">
 			Zum anderen senden die Empfänger der E-Mails regelmäßige Berichte an den Besitzer der
 			Absender-Domäne.
 			<br />
-			Dadurch kann schnell festgestellt werden, wenn konfigurationsfehler vorliegen.
+			Dadurch kann schnell festgestellt werden, wenn Konfigurationsfehler vorliegen.
 			<br />
 			Zusätzlich werden auch Mails gemeldet, die gefälscht wurden. Dadurch kann in einigen Fällen gegen
 			die Fälscher vorgegangen werden.
