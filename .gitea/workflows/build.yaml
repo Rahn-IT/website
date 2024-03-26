@@ -27,6 +27,8 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
+      - name: Install Docker
+        run: curl -fsSL https://get.docker.com | sh
       - name: Build and push
         uses: docker/build-push-action@v5
         env:
