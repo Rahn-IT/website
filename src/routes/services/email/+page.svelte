@@ -73,8 +73,8 @@
 		bedeuten sollen.
 	</p>
 	<p class="pb-2">
-		Damit Sie nicht im Dunkeln tappen, haben wir die ausgeschriebene Abkürzungen noch einmal
-		Sinngemäß übersetzt.
+		Damit Sie nicht im Dunkeln tappen, haben wir die ausgeschriebenen Abkürzungen noch einmal
+		sinngemäß übersetzt.
 	</p>
 
 	<div class="p-4">
@@ -105,9 +105,9 @@
 		<h3 class="text-2xl font-bold">SPF - Rahmenwerk zur Absender-Prüfung</h3>
 		<p class="py-2">Um gegen gefälschte Absender vorzugehen wurde 2006 SPF spezifiziert.</p>
 		<p class="py-2">
-			SPF ist eine simple, aber effektive Maßnahme um gefälschten E-Mails zu vermeiden.
+			SPF ist eine simple, aber effektive Maßnahme um gefälschte E-Mails zu vermeiden.
 			<br />
-			Als Besitzer einer Internet-Dömäne können Sie angeben, welche Server berechtigt sind, unter Ihrem
+			Als Besitzer einer Internet-Domäne können Sie angeben, welche Server berechtigt sind, unter Ihrem
 			Namen E-Mails zu versenden.
 		</p>
 		<p class="py-2">
