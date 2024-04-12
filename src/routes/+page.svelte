@@ -16,7 +16,7 @@
 	<p class="py-2">
 		Wir betreuen Seit <b>{years}</b> Jahren professionell und zuverlässig die IT unserer Kunden.
 		<br />
-		Profitieren auch Sie von unserem umfangreiches Wissen, und unserer langjährige Erfahrung.
+		Profitieren auch Sie von unserem umfangreichen Wissen, und unserer langjährige Erfahrung.
 	</p>
 	<p class="py-2">
 		Unser Kundenstamm ist dabei so vielseitig wie unsere Leistungen,
