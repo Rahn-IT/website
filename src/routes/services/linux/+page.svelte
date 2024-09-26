@@ -3,6 +3,7 @@
 	import Phone from '$lib/info/Phone.svelte';
 
 	import Proxmox from '$lib/images/services/Proxmox.jpg';
+	import Linux from '$lib/images/services/linux.jpg';
 </script>
 
 <svelte:head>
@@ -36,7 +37,7 @@
 		</p>
 	</Service>
 
-	<Service title="Linux-Server" image={Proxmox}>
+	<Service title="Linux-Server" image={Linux}>
 		<p class="py-2">
 			Sie haben Interesse am Einsatz von Linux oder suchen jemanden, der Ihre vorhandene
 			Infrastruktur betreut?
