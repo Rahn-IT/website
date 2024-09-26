@@ -30,7 +30,7 @@ jobs:
       - name: Add Git
         run: apk update && apk add git
       - name: Clone
-        run: git clone --depth 100 $(echo "${{ gitea.event.repository.clone_url }}" | sed -e "s^//^//:${{ gitea.token }}@^") .
+        run: git clone --depth 100 -b "${{ github.head_ref || github.ref_name }}"" $(echo "${{ gitea.event.repository.clone_url }}" | sed -e "s^//^//:${{ gitea.token }}@^") .
       - name: Build and Push
         run: |
           echo "triggered by ${{ gitea.event_name }}"
