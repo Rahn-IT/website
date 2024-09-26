@@ -85,7 +85,7 @@
 			Und das ist auch schon alles was SMTP kann - dadurch bleibt es erstaunlich simpel.
 		</p>
 		<p class="py-2">
-			SMTP ist ein altes Protokoll. Die erste Version wurde 1982 veröffentlicht und ist damit etwas
+			SMTP ist ein altes Protokoll. Die erste Version wurde 1982 veröffentlicht und ist damit etwa
 			so alt wie das Internet.
 		</p>
 		<p class="py-2">
