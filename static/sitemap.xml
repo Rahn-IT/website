@@ -13,6 +13,14 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://it-rahn.de/services/email</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://it-rahn.de/services/linux</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://it-rahn.de/pricing</loc>
     <priority>0.5</priority>
   </url>

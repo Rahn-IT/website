@@ -16,6 +16,7 @@
 				<ul class="xl:top-10 xl:shadow-2xl xl:drop-shadow">
 					<li><a href="/services">Dienste</a></li>
 					<li><a href="/services/email">E-Mail</a></li>
+					<li><a href="/services/linux">Linux & Proxmox</a></li>
 				</ul>
 			</details>
 		</li>
@@ -52,10 +53,11 @@
 			<a class="link-hover link" href="/emergency">Notfalldienst</a>
 			<a class="link-hover link" href="/services">Dienste</a>
 			<a class="link-hover link" href="/services/email">E-Mail</a>
-			<a class="link-hover link" href="/pricing">Preise</a>
-			<a class="link-hover link" href="/remote">Fernwartung</a>
+			<a class="link-hover link" href="/services/linux">Linux</a>
 		</div>
 		<div>
+			<a class="link-hover link" href="/pricing">Preise</a>
+			<a class="link-hover link" href="/remote">Fernwartung</a>
 			<a class="link-hover link" href="/about-us">Unsere Prinzipen</a>
 			<a class="link-hover link" href="/about-us/people">Das Team</a>
 			<a class="link-hover link" href="/contact">Kontakt</a>
