@@ -53,7 +53,7 @@
 
 		<h3 class="pt-4 font-bold">Effizienz</h3>
 		<p class="py-2">
-			Linux-Systeme können im höchsten maße resourcenschonend sein. Dadurch eignen sich
+			Linux-Systeme können im höchsten Maße resourcenschonend sein. Dadurch eignen sich
 			Linux-Maschinen auch hervorragend um bestehende Windows-Netzwerke mit zusätzlichen Funktionen
 			wie z.B. einem VPN-Zugang zu ergänzen.
 		</p>
