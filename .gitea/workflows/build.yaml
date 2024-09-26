@@ -35,4 +35,4 @@ jobs:
           echo "triggered by ${{ gitea.event_name }}"
           docker login ghcr.io -u "${{ secrets.ghcr_user }}" -p "${{ secrets.ghcr_token }}"
           docker build --pull -t "ghcr.io/rahn-it/website" --squash .
-          docker push "ghcr.io/rahn-it/website"
+          docker push "ghcr.io/rahn-it/website:${{ github.head_ref || github.ref_name }}"
