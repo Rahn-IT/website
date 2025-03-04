@@ -1,20 +1,24 @@
 <script lang="ts">
+	import type { Snippet } from 'svelte';
 	import Img from './Img.svelte';
 	import type { Picture } from './types';
 
-	export let title: string;
-	export let image: Picture;
-	export let loading: 'lazy' | 'eager' = 'lazy';
+	let {
+		title,
+		image,
+		loading,
+		serviceInfo
+	}: { title: string; image: Picture; loading?: 'lazy' | 'eager'; serviceInfo: Snippet } = $props();
 </script>
 
 <div class="p-4">
-	<div class=" card image-full w-full overflow-auto bg-base-100 shadow-xl">
+	<div class=" card image-full bg-base-100 w-full overflow-auto shadow-xl">
 		<figure class="absolute h-full w-full">
 			<Img class="h-full w-full object-cover" src={image} alt={title} {loading} />
 		</figure>
-		<div class="card-body h-fit dark:!text-neutral-100">
+		<div class="card-body h-fit !text-neutral-100 backdrop-brightness-50">
 			<h2 class="card-title text-2xl">{title}</h2>
-			<slot />
+			{@render serviceInfo()}
 		</div>
 	</div>
 </div>

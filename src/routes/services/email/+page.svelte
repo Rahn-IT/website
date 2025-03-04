@@ -24,47 +24,53 @@
 	<p class="py-2"></p>
 
 	<Service title="Rahn-IT Mail-Gateway" image={Email}>
-		<p class="py-2">Unser E-Mail-Gateway ist die perfekte Ergänzung für Ihren Mailserver.</p>
+		{#snippet serviceInfo()}
+			<p class="py-2">Unser E-Mail-Gateway ist die perfekte Ergänzung für Ihren Mailserver.</p>
 
-		<h3 class="pt-4 font-bold">Spam-Filter und Virenscanner</h3>
-		<p>
-			Eingehende Mails werden von unserem leistungsstarken Spam-Filter unter die Lupe genommen.
-			<br />
-			Dieser sortiert nicht nur große Mengen an ungewollter Werbung aus, sondern schützt auch vor Viren
-			und Betrugsversuchen.
-		</p>
+			<h3 class="pt-4 font-bold">Spam-Filter und Virenscanner</h3>
+			<p>
+				Eingehende Mails werden von unserem leistungsstarken Spam-Filter unter die Lupe genommen.
+				<br />
+				Dieser sortiert nicht nur große Mengen an ungewollter Werbung aus, sondern schützt auch vor Viren
+				und Betrugsversuchen.
+			</p>
 
-		<h3 class="pt-4 font-bold">E-Mails wie aus dem Lehrbuch</h3>
-		<p>
-			Unser System sorgt dafür, dass Ihre E-Mails den neuesten Standarts entsprechen.
-			<br />
-			Jede E-Mail wird mittels dem DKIM-Verfahren digital signiert und entspricht den nötigen SPF- und
-			DMARC-Vorgaben.
-		</p>
-		<p>So können Sie sichergehen, dass Ihre E-Mails nie wieder grundlos im Spam-Ordner landen.</p>
+			<h3 class="pt-4 font-bold">E-Mails wie aus dem Lehrbuch</h3>
+			<p>
+				Unser System sorgt dafür, dass Ihre E-Mails den neuesten Standarts entsprechen.
+				<br />
+				Jede E-Mail wird mittels dem DKIM-Verfahren digital signiert und entspricht den nötigen SPF-
+				und DMARC-Vorgaben.
+			</p>
+			<p>So können Sie sichergehen, dass Ihre E-Mails nie wieder grundlos im Spam-Ordner landen.</p>
 
-		<h3 class="pt-4 font-bold">Immer einen Schrit voraus</h3>
-		<p>Dank fortlaufender Überwachung geht keine E-Mail mehr spurlos verloren.</p>
-		<p>
-			Wir behalten ein wachsames Auge auf Ihren Mailverkehr, passen den Spam-Filter laufend an und
-			schalten uns bei auffallenden Problemen selbstständig ein.
-		</p>
+			<h3 class="pt-4 font-bold">Immer einen Schrit voraus</h3>
+			<p>Dank fortlaufender Überwachung geht keine E-Mail mehr spurlos verloren.</p>
+			<p>
+				Wir behalten ein wachsames Auge auf Ihren Mailverkehr, passen den Spam-Filter laufend an und
+				schalten uns bei auffallenden Problemen selbstständig ein.
+			</p>
+		{/snippet}
 	</Service>
 
 	<Service title="DMARC-Überwachung" image={Dmarc}>
-		<p class="py-2">
-			Haben Sie kein Interesse an unserem Gateway, aber Ihre E-Mails landen trotzdem im Spam-Ordner?
-		</p>
-		<p class="py-2">
-			Mithilfe von DMARC-Berichten können Sie nicht nur feststellen, ob Ihre E-Mails auch ankommen,
-			<br />
-			sondern kommen auch Betrügern, die unter Ihrem Namen handeln schnell auf die Schliche.
-		</p>
-		<p class="py-2">
-			Wir übernehmen für Sie die Einrichtung und Auswertung eingehender DMARC-Berichte.
-			<br />
-			Dadurch sind Sie stets informiert, sollte etwas an Ihrem Mail-System nicht stimmen.
-		</p>
+		{#snippet serviceInfo()}
+			<p class="py-2">
+				Haben Sie kein Interesse an unserem Gateway, aber Ihre E-Mails landen trotzdem im
+				Spam-Ordner?
+			</p>
+			<p class="py-2">
+				Mithilfe von DMARC-Berichten können Sie nicht nur feststellen, ob Ihre E-Mails auch
+				ankommen,
+				<br />
+				sondern kommen auch Betrügern, die unter Ihrem Namen handeln schnell auf die Schliche.
+			</p>
+			<p class="py-2">
+				Wir übernehmen für Sie die Einrichtung und Auswertung eingehender DMARC-Berichte.
+				<br />
+				Dadurch sind Sie stets informiert, sollte etwas an Ihrem Mail-System nicht stimmen.
+			</p>
+		{/snippet}
 	</Service>
 
 	<h2 class="pt-8 text-3xl">Geht das auch auf Deutsch?</h2>

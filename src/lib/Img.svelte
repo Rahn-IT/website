@@ -3,18 +3,21 @@
 	//@ts-nocheck
 	import type { Picture } from './types';
 
-	export let src: Picture;
-
-	export let alt = '';
-	export let draggable = false;
-
-	export let decoding: 'async' | 'sync' | 'auto' = 'async';
-
-	export let loading: 'lazy' | 'eager' = 'lazy';
-
-	let classes = '';
-
-	export { classes as class };
+	let {
+		src,
+		alt = '',
+		draggable = false,
+		decoding = 'async',
+		loading = 'lazy',
+		class: classes = ''
+	}: {
+		src: Picture;
+		alt: string;
+		draggable?: boolean;
+		decoding?: 'async' | 'sync' | 'auto';
+		loading?: 'lazy' | 'eager';
+		class?: string;
+	} = $props();
 </script>
 
 <picture class={classes}>
@@ -23,7 +26,7 @@
 	{/each}
 
 	<img
-		class="h-full w-full object-contain"
+		class={classes}
 		src={src.img.src}
 		{alt}
 		{loading}

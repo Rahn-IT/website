@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { name, street, plz, city } from './info';
-	export let withName = false;
+	let { withName }: { withName: boolean } = $props();
 </script>
 
 <address>

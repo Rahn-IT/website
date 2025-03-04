@@ -48,22 +48,23 @@
 				bind:checked={menuOpen}
 				type="checkbox"
 				class="drawer-toggle"
-				aria-hidden
+				aria-hidden="true"
 			/>
 			<div class="drawer-content">
 				<!-- Page content here -->
 				<label
 					for="mobile-menu"
 					class="btn btn-ghost drawer-button"
-					aria-hidden
+					aria-hidden="true"
 					aria-label="Open menu"
 				>
 					<MenuIcon class="h-full w-auto" />
 				</label>
 			</div>
 			<div class="drawer-side">
-				<label for="mobile-menu" class="drawer-overlay" aria-hidden aria-label="Close menu"></label>
-				<ul class="menu menu-lg min-h-full w-80 bg-base-200 p-4 text-base-content">
+				<label for="mobile-menu" class="drawer-overlay" aria-hidden="true" aria-label="Close menu"
+				></label>
+				<ul class="menu menu-lg bg-base-200 text-base-content min-h-full w-80 p-4">
 					<slot />
 				</ul>
 			</div>
