@@ -7,7 +7,7 @@
 </script>
 
 <div class="app flex min-h-screen flex-col">
-	<Navbar class="navbar fixed z-50 h-20 bg-base-100 shadow dark:bg-base-200">
+	<Navbar class="navbar bg-base-100 dark:bg-base-200 fixed z-50 h-20 shadow">
 		<li class="xl:hidden"><a href="/">Home</a></li>
 		<li><a href="/emergency">Notdienst</a></li>
 		<li>
@@ -38,30 +38,5 @@
 			<slot />
 		</div>
 	</main>
-	<Footer>
-		<div>
-			<a href="/" class="btn btn-ghost h-24 p-2">
-				<LogoStandalone class="h-full w-auto" />
-			</a>
-			<div class="px-2">
-				<div>Rahn IT-Systemtechnik</div>
-				<div><Phone /></div>
-			</div>
-		</div>
-		<div>
-			<a class="link-hover link" href="/">Home</a>
-			<a class="link-hover link" href="/emergency">Notfalldienst</a>
-			<a class="link-hover link" href="/services">Dienste</a>
-			<a class="link-hover link" href="/services/email">E-Mail</a>
-			<a class="link-hover link" href="/services/linux">Linux</a>
-		</div>
-		<div>
-			<a class="link-hover link" href="/pricing">Preise</a>
-			<a class="link-hover link" href="/remote">Fernwartung</a>
-			<a class="link-hover link" href="/about-us">Unsere Prinzipen</a>
-			<a class="link-hover link" href="/about-us/people">Das Team</a>
-			<a class="link-hover link" href="/contact">Kontakt</a>
-			<a class="link-hover link" href="/impressum">Impressum</a>
-		</div>
-	</Footer>
+	<Footer />
 </div>

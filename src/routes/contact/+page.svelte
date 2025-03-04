@@ -12,7 +12,7 @@
 	<meta name="description" content="Kontaktieren Sie uns per E-Mail oder Telefon." />
 </svelte:head>
 
-<div class="card my-20 bg-base-300 shadow-xl md:card-side">
+<div class="card bg-base-300 md:card-side my-20 shadow-xl">
 	<figure>
 		<LogoStandalone class="h-auto w-96 p-10" />
 	</figure>

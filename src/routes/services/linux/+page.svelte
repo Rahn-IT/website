@@ -63,13 +63,46 @@
 		{/snippet}
 	</Service>
 
-	<h2 class="pt-8 text-3xl">Noch Fragen?</h2>
+	<h2 class="pt-8 text-3xl">Warum Linux?</h2>
+
+	<h3 class="mt-4 text-2xl font-bold">Linux ist <u>Zuverlässig</u></h3>
+	<p class="py-2 text-lg">
+		Aufgrund der hohen Zuverlässigkeit setzen Unternehmen aus der ganzen Welt auf Linux.
+		<br />
+		Darunter Google, Amazon und selbst Microsoft nutzen Linux für deren Cloud-Infrastruktur.
+	</p>
+
+	<h3 class="mt-4 text-2xl font-bold">Linux ist <u>Sicher</u></h3>
+	<p class="py-2 text-lg">
+		Linux-Systeme bieten überragende Sicherheit.
+		<br />
+		Zusätzlich zu strengen Zugriffsrechten bietet Linux diverse Sandbox-Systeme.
+		<br />
+		Dank des simplen Aufbaus, bleibt weniger Angriffsfläche für Malware.
+	</p>
+
+	<h3 class="mt-4 text-2xl font-bold">Linux ist <u>Unabhängig</u></h3>
+	<p class="py-2 text-lg">
+		Linux gehört niemandem, da es Open-Source ist.
+		<br />
+		Das bedeutet, jeder kann den Programmcode kopieren, ändern und kostenlos verwenden, wie er möchte.
+		<br />
+		Die GPL-Lizenz verlangt lediglich, dass Änderungen und Verbesserungen wieder geteilt werden.
+	</p>
+	<p class="py-2 text-lg">
+		<u>Niemand kann Ihnen die Lizenz entziehen</u>, denn sie brauchen keine.
+		<br />
+		Linux wird von einem weltweiten Zusammenschluss von Programmierern entwickelt und wird von keiner
+		einzelnen Firma kontrolliert.<br /> So bleibt Ihre Infrastruktur sourverän.
+	</p>
+
+	<h2 class="pt-16 text-3xl">Noch Fragen?</h2>
 	<p class="pt-2">
 		Sind Sie sich unsicher, ob wir der richtige Ansprechpartner für Ihr Problem sind?
 		<br />
 		<br />
 		Für Ihre Fragen haben wir immer ein offenes Ohr - und wenn wir doch einmal nicht helfen können, dann
-		kennen wir vermutlich jemanden, der es kann.
+		kennen wir vielleicht jemanden, der es kann.
 		<br />
 		<br />
 		<Phone />

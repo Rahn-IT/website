@@ -3,6 +3,7 @@
 
 	import Email from '$lib/images/services/email.png';
 	import Dmarc from '$lib/images/services/dmarc.jpg';
+	import Mailcow from '$lib/images/services/mailcow.jpg';
 	import Phone from '$lib/info/Phone.svelte';
 </script>
 
@@ -49,6 +50,28 @@
 			<p>
 				Wir behalten ein wachsames Auge auf Ihren Mailverkehr, passen den Spam-Filter laufend an und
 				schalten uns bei auffallenden Problemen selbstständig ein.
+			</p>
+		{/snippet}
+	</Service>
+
+	<Service title="On-Premise Mailserver" image={Mailcow}>
+		{#snippet serviceInfo()}
+			<p class="py-2">Sie benötigen einen eigenen Mailserver?</p>
+			<p class="py-2">
+				Wir installieren und verwalten ihren ganz eigenen E-Mail-Server direkt bei Ihnen im Betrieb.
+				<br />
+				So bleiben Sie unabhängig von großen Anbietern und können so viele E-Mails speichern, wie auf
+				Ihre Festplatten passen.
+			</p>
+			<p class="py-2">
+				Wir nutzen das hervorragende
+				<a class="link" href="https://mailcow.email/" target="_blank">Mailcow System.</a>
+				<br />
+				Mailcow setzt auf in der Branche verbreitete und Bewährte Software wie Postfix und Dovecot. Und
+				bietet die perfekte Mischung aus Bedienbarkeit und, Flexibilität und Zuverlässigkeit.
+			</p>
+			<p class="py-2">
+				In Kombination mit unserem E-Mail-Gateway erhalten Sie eine leistungsstarke E-Mail-Lösung.
 			</p>
 		{/snippet}
 	</Service>
