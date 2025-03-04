@@ -2,10 +2,13 @@
 	import Img from './Img.svelte';
 	import type { Picture } from './types';
 
-	export let name: string;
-	export let href: string;
-	export let image: Picture;
-	let classes = '';
+	let {
+		name,
+		href,
+		image,
+		class: classes = ''
+	}: { name: string; href: string; image: Picture; class?: string } = $props();
+
 	export { classes as class };
 </script>
 
@@ -14,7 +17,7 @@
 	class="ref h-full flex-shrink-0 flex-grow-0 snap-center hover:brightness-90 hover:filter {classes} flex"
 	data-tip={name}
 >
-	<Img class="img w-auto flex-1 object-contain" src={image} alt={name} />
+	<Img class="h-full object-contain" src={image} alt={name} />
 </a>
 
 <style>
